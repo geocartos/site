@@ -1,0 +1,96 @@
+/*Navbar*/
+#navbar {
+   background: rgba(243, 239, 239);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: top 2s;
+}
+
+
+/*Portal del Blog*/
+.portalblog {
+   margin: 50px;
+}
+
+
+/*Blog Tema*/
+.temablog {
+   margin-left: 10%;
+   margin-right:  10%;
+   margin-top: 100px;
+}
+
+
+
+.cartas {
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+
+
+
+/*footer*/
+.footer p{
+   color: #999;
+   line-height: 25px;
+}
+
+.footer h2 {
+   color: #fff;
+   font-size:  18px;
+}
+
+.sectionfooter{
+   background:rgb(21, 21, 20)
+   
+}
+
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+
+.footerinferior{
+   background: black;
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#586113;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}
+
+
+

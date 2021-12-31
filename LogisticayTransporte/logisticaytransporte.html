@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+    <title>Logística</title>
+    <link rel="icon"  href="img/favicon.ico">
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--CSS-->
+   <link rel="stylesheet" href="css/style.css">
+<!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap" rel="stylesheet"> 
+<!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/7d054598a9.js" crossorigin="anonymous"></script>
+<!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css5">    
+    <link rel="stylesheet" href="css/animate.css">
+<!--Contador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<!--Graficacircular-->
+    <script src="js/jquery.easypiechart.js"></script>
+<!--Google analytics-->   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBS3TBNT4L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LBS3TBNT4L');
+</script>
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img src="img/logo_geocartos.png" width="200" height="34"  alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Soluciones
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../IngenieriayConstruccion/ingenieriayconstruccion.html">Ingeniería y Construcción</a>
+          <a class="dropdown-item" href="../GobiernoySociedad/gobiernoysociedad.html">Gobierno y Sociedad</a>
+          <a class="dropdown-item" href="../RecursosnaturalesyMedioambiente/recursosnaturalesyambiente.html">Recursos Naturales y Ambiente</a>
+          <a class="dropdown-item" href="../LogisticayTransporte/logisticaytransporte.html">Logística y Transporte</a>
+          <a class="dropdown-item" href="../NegociosyFinanzas/negociosyfinanzas.html">Negocios y Finanzas</a>
+          <a class="dropdown-item" href="../Capacitacion/capacitacion.html">Capacitación</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tecnologías
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../geografiadigital/geografiadigital.html">Geografía Digital</a>
+          <a class="dropdown-item" href="../teledeteccionysensores/sensoresremotos.html">Teledetección y Sensores Remotos</a>
+          <a class="dropdown-item" href="../plataformasdigitales/plataformasdigitales.html">Plataformas Digitales y Webmapping </a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-secondary"><a href="../contacto/contacto.html">Contacto</a></button>
+      </li>
+    </ul>
+  </div>
+  
+  </div>
+</nav>
+
+ <!--Portada Logistica--> 
+<section class="portadalogistica">
+
+  <div class="container-fluid portadalog">
+    <div class="row">
+      <div class="col-md-12  col-sm-12  col-xs-12 text-center">
+        <h1>Logística</h1>
+      </div>
+    </div>
+  </div>
+  
+</section> 
+
+
+<!--Notas Logistica--> 
+<div class="container notaslogistica">
+  <div class="row">
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notalogistica1.png" alt="">
+      <h2>Disminución de Costos</h2>
+      <p>Encuentra el mejor trayecto.</p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notalogistica2.jpg" alt="">
+      <h2>Eficiencia en Tiempo</h2>
+      <p>Conoces en qué están invertidos tus recursos.</p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notalogistica3.jpg" alt="">
+      <h2>Modelo de Rutas</h2>
+      <p>Conoces en qué están invertidos tus recursos.</p>
+    </div>    
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notalogistica4.jpg" alt="">
+      <h2>Seguimiento</h2>
+      <p>Conoces en qué están invertidos tus recursos.</p>
+    </div>
+  </div>
+</div> 
+
+
+<!--Contenedor TextoImagen Logistica 0-->   
+<section class="contenedortextoimagenlog0">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+
+      <div class="col-md-6 clog0texto">
+
+        <h2>Los datos geoespaciales permiten crear las mejores rutas en la ciudad </h2>
+        <p>Los datos geoespaciales permiten optimizar las rutas  para una mejor experiencia  y rentabilidad        </p>
+
+      </div>
+
+      <div class="col-md-6 clog0imagen">
+        <img src="img/logisticacard0.svg" class="img-fluid" alt="">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Contenedor TextoImagen Logistica 1-->   
+<section class="contenedortextoimagenlog1">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 clog1imagen">
+        <img src="img/logisticacard1.png" class="img-fluid" alt="">
+      </div>
+
+
+      <div class="col-md-6 clog1texto">
+
+        <h2>Optimización de Rutas y Ubicaciones   </h2>
+        <p>Identifica las mejores rutas de desplazamiento para conectar dos puntos o más.  Tomando en cuenta datos de distancia, información vial y tiempo.</p>
+
+
+        <h3>Optimizar rutas de distribución</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Conoce la  manera mas eficiente de realizar los repartos cotidianos.  </li>
+        </ul>
+
+
+        <h3>Planificación de rutas con varios puntos de destino</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Mejora los tiempo de entrega y por lo tanto el ahorro de insumos.  </li>
+        </ul>
+
+        <h3>Rutas optimas en tiempo real </h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Actualiza tus rutas de reparto dependiendo de información vial.  </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Contenedor TextoImagen Logistica 2-->   
+<section class="contenedortextoimagenlog2">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 clog2texto">
+
+        <h3>Mapas de Distancias</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Identifica cuales las áreas  de un punto a otro que tienen la misma distancia.  </li>
+        </ul>
+
+
+        <h3>Mapas de Tiempo</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>Identifica cuales las áreas  de un punto a otro que tienen el mismo tiempo.  </li>
+        </ul>
+
+        <h3>Áreas de Influencia</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>      Conoce las  áreas de influencia de un centro de reparto dependiendo de distancia de viaje y tiempo. </li>
+        </ul>
+        
+      </div>
+ 
+
+      <div class="col-md-6 clog2imagen">
+
+          <img src="img/logisticacard2.png" class="img-fluid" alt="Atlas de Riesgo">
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->  
+<footer>
+  <section class="footer sectionfooter">
+    <div class="container" >
+      <div class="row footersuperior">
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-uno md-mb-30 sm-mb-30">
+          <img src="img/logo_geocartos_claro.png" width="200" height="34"  alt="">
+          <p>GIS for everyone, anywhere</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-dos md-mb-30 sm-mb-30">
+          <ul>
+            <li><p><i class="fas fa-map-marker-alt"></i>   Prol. 11 Sur 4701 Reforma Agua Azul, 72430 Puebla, Pue.</p></li>
+            <li><p><i class="fas fa-phone-alt"></i> Telefonos: +52 22 22 54 07 75 / +52 22 24 39 76 47</p></li>
+            <li><p><i class="far fa-envelope"></i> geocartosmx@outlook.com</p></li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-tres sm-mb-30">
+          
+          <!-- 
+                      <h2>Mapa de Sitio</h2>
+          <ul>
+            <li><a class="text-secondary" href="#">Eventos</a></li>
+            <li><a class="text-secondary" href="#">Soporte</a></li>
+            <li><a class="text-secondary" href="#">Blog</a></li>
+          </ul>
+           -->
+
+          
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-cuatro sm-mb-30">
+          <h2>Redes sociales</h2>
+          <p>Siguenos en nuestras redes sociales</p>
+          <a href="https://www.facebook.com/geocartos" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/geocartos"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footerinferior">
+        <div class="col-md-10">
+          <p class="footer-bottom-text">  &copy; 2022 Geocartos S.A. de C.V. Todos los derechos reservados. </p>
+        </div>
+        <div class="col-md-2">
+          <a class="text-secondary" href="../privacidad/privacidad.html">Privacidad</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</footer>
+
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+
+<script type="text/javascript">
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+    
+      var currentScrollpos = window.pageYOffset;
+      if(prevScrollpos > currentScrollpos) {
+            document.getElementById("navbar").style.top = "0";
+      } else {
+            document.getElementById("navbar").style.top = "-130px";
+      }
+    
+      prevScrollpos = currentScrollpos;
+    
+      }
+    
+</script>
+
+</body>
+</html>

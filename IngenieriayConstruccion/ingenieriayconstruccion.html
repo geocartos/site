@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+    <title>Infraestructura</title>
+    <link rel="icon"  href="img/favicon.ico">
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--CSS-->
+   <link rel="stylesheet" href="css/style.css">
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">   
+<!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/7d054598a9.js" crossorigin="anonymous"></script>
+<!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css5">    
+    <link rel="stylesheet" href="css/animate.css">
+<!--Contador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<!--Graficacircular-->
+    <script src="js/jquery.easypiechart.js"></script>
+<!--Google analytics-->   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBS3TBNT4L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LBS3TBNT4L');
+</script>
+</head>
+<body>
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <img src="img/logo_geocartos.png" width="200" height="34"  alt="">
+      </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Soluciones
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../IngenieriayConstruccion/ingenieriayconstruccion.html">Ingeniería y Construcción</a>
+            <a class="dropdown-item" href="../GobiernoySociedad/gobiernoysociedad.html">Gobierno y Sociedad</a>
+            <a class="dropdown-item" href="../RecursosnaturalesyMedioambiente/recursosnaturalesyambiente.html">Recursos Naturales y Ambiente</a>
+            <a class="dropdown-item" href="../LogisticayTransporte/logisticaytransporte.html">Logística y Transporte</a>
+            <a class="dropdown-item" href="../NegociosyFinanzas/negociosyfinanzas.html">Negocios y Finanzas</a>
+            <a class="dropdown-item" href="../Capacitacion/capacitacion.html">Capacitación</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tecnologías
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="../geografiadigital/geografiadigital.html">Geografía Digital</a>
+            <a class="dropdown-item" href="../teledeteccionysensores/sensoresremotos.html">Teledetección y Sensores Remotos</a>
+            <a class="dropdown-item" href="../plataformasdigitales/plataformasdigitales.html">Plataformas Digitales y Webmapping </a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <button type="button" class="btn btn-outline-secondary"><a href="../contacto/contacto.html">Contacto</a></button>
+        </li>
+      </ul>
+    </div>
+    
+    </div>
+  </nav>
+  
+<!--Portada Ingenieria--> 
+<section class="portadaingenieria">
+
+  <div class="container-fluid portadainge">
+    <div class="row">
+      <div class="col-md-12  col-sm-12  col-xs-12 text-center">
+        <h1>Infraestructura</h1>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!--Notas Ingenieria--> 
+<div class="container notasingenieria">
+  <div class="row">
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaingenieria1.jpg" alt="">
+      <h2>Digitalización</h2>
+      <p>Analiza escenarios de forma digital para agilizar tus procesos</p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaingenieria2.jpg" alt="">
+      <h2>Planeación</h2>
+      <p>Evalúa con análisis geoespacial diferentes factores que puedan afectar tus proyectos</p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaingenieria3.jpg" alt="">
+      <h2>Gestión</h2>
+      <p>Sigue avances de proyectos mediante imágenes y plataformas geográficas</p>
+    </div>   
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaingenieria4.jpg" alt="">
+      <h2>Decisión</h2>
+      <p>Realiza estudios multicriterio mediante información geográfica para tomar las mejores decisiones </p>
+    </div>
+  </div>
+</div> 
+
+
+<!--Contenedor Imagen Full Ingenieria 1--> 
+<section class="contenedorfulligenieria1">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal"></h1>
+      <p class="lead font-weight-normal">En Geocartos® somos pioneros en la implementación de tecnología geoespacial para elaboración de modelado de información de construcción (BIM) </p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</section>
+
+
+<!--Contenedor TextoImagen Construccion-->   
+<section class="contenedortextoimagenCons">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cConstexto">
+
+
+          <h2>Obra Civil </h2>
+  
+          <h3>Monitoreo y gestión</h3>
+  
+          <ul>
+            <li><i class="far fa-check-circle"></i>  Desarrollo de Dashboards para llevar el control de los proyectos de infraestructura.</li>
+            <li><i class="far fa-check-circle"></i>  Seguimiento de obra mediante dron e imágenes satelitales ópticas ó radar.</li>
+          </ul>
+  
+          <h3>Cumplimiento de normatividad</h3>
+  
+          <ul>
+            <li><i class="far fa-check-circle"></i>  Apoyo a la creación de impatos ambientales para construcción.</li>
+            <li><i class="far fa-check-circle"></i>  Revisamos si tu proyecto está en áreas protegidas o si puede infrigir normas ambientales.</li>
+            
+          </ul>
+  
+  
+          <h3>Digitalización de Entornos</h3>
+  
+          <ul>
+            <li><i class="far fa-check-circle"></i>  Gemelos digitales.</li>
+            <li><i class="far fa-check-circle"></i>  Fotogrametría y nubes de puntos.</li>
+            <li><i class="far fa-check-circle"></i>  Cálculo de volumenes</li>
+            <li><i class="far fa-check-circle"></i>  Estabilidad de taludes y cálculo de volumenes.</li>
+          </ul>
+        
+      </div>
+
+
+      <div class="col-md-6 cConsimagen">
+
+          <img src="img/obracivil1.png" class="img-fluid" alt="Atlas de Riesgo">
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Contenedor TextoImagen Hidrologia-->   
+<section class="contenedortextoimagenHidro">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cHidroimagen">
+        <img src="img/hidrico.png" class="img-fluid" alt="">
+      </div>
+
+
+      <div class="col-md-6 cHidrotexto">
+
+        <h3>Estudios digitales del terreno</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Estabilidad de taludes y cálculo de volumenes.</li>
+          <li><i class="far fa-check-circle"></i>  Modelos digitales del terreno.</li>
+          <li><i class="far fa-check-circle"></i>  Análisis de hundimiento del terreno al milimetro.</li>
+        </ul>
+
+      
+
+        <h3>Análisis Hidrogelógicos</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Análisis para zonas de recarga y descarga.</li>
+          <li><i class="far fa-check-circle"></i>  Estudios Hidrogelógicos y cuencas.</li>
+          <li><i class="far fa-check-circle"></i>  Ubicar zonas de inundación.</li>
+          <li><i class="far fa-check-circle"></i>  Identificación para zonas de riesgo.</li>
+        </ul>
+
+        <h3>Estudios multicriterio para proyectos de infraestrucutra</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Conoce el entorno territorial del proyecto, sus riesgos y afectaciones.</li>
+        </ul>
+        
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Cartas Ingenieria 1-->
+<section class="cartasingenieria">
+  <div class="container ">
+    <div class="row">
+      
+<div class="col-md-4  col-sm-6  col-xs-12 ">
+  <div class="card shadow-sm  mb-5 bg-white rounded">
+    <img class="card-img-top " src="img/ingenieria_carta1.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Monitoreo para proyectos de infraestructura</h5>
+      <p class="card-text">Usar imágenes para el seguimiento de proyecto permite identificar detección de cambios, supervisión de obra de manera remota, periodica y sin importa si está en zonas con nubosidad.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4  col-sm-6  col-xs-12 ">
+  <div class="card shadow-sm mb-5 bg-white rounded">
+    <img class="card-img-top " src="img/ingenieria_carta2.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Represetación digital del proyecto</h5>
+      <p class="card-text">El uso de los modelos digitales de elevación con el objeto de representar en forma fidedigna el relieve terrestre o de edificaciones para integración BIM. Tiene un impacto relevante en los resultados finales y en la calidad del producto generado.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4  col-sm-6  col-xs-12 ">
+  <div class="card shadow-sm  mb-5 bg-white rounded">
+    <img class="card-img-top" src="img/cardrecolectardatos.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Actualiza Bases de Datos desde el campo</h5>
+      <p class="card-text">Manten actualizado tu inventarios desde una visita a campo, revisa personalmente la infraestructura actual.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Imagen Full Ingenieria 2--> 
+<section class="contenedorfulligenieria2">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Digitalización en GIS</h1>
+      <p class="lead font-weight-normal">En Geocartos® te ayudamos a llevar una gestión del avance de la obra desde los GIS. </p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</section>
+
+
+<!--Contenedor Cartas Ingenieria 2-->
+<section class="cartasingenieria">
+  <div class="container ">
+    <div class="row">
+      
+<div class="col-md-4  col-sm-6  col-xs-12 ">
+  <div class="card shadow-sm  mb-5 bg-white rounded">
+    <img class="card-img-top " src="img/redhidricacuenca.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Conocer el comportamiento de las redes hídricas</h5>
+      <p class="card-text">Modelar comportamiento hidrogeológico permite conocer llanuras de inundación para la predicción de los peligros por inundación fluvial y planificar acciones de mitigación.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4  col-sm-6  col-xs-12 ">
+  <div class="card shadow-sm mb-5 bg-white rounded">
+    <img class="card-img-top " src="img/imagenesdesatelite.png" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Los mapas SIG permiten  una planificación inteligente</h5>
+      <p class="card-text">La infraestructura verde es un método para abordar retos climáticos y urbanos construyendo con la naturaleza. Es una forma de ver la tierra que nos rodea con un enfoque más ecológico y holístico.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4  col-sm-6  col-xs-12 ">
+  <div class="card shadow-sm  mb-5 bg-white rounded">
+    <img class="card-img-top" src="img/modigitalterre.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Modelos Digitales de Elevación están cambiando la forma de planificar</h5>
+      <p class="card-text">Los DEM  ofrecen una gran cantidad de información, con la que podrás procesar, modelar, crear simulaciones, planificar, conocer el terreno,  entre otras más aplicaciones.</p>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<!--Contenedor TextoImagen TeleCom-->   
+<section class="contenedortextoimagenTele">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cTeleimagen">
+        <img src="img/telecom.png" class="img-fluid" alt="">
+      </div>
+
+
+      <div class="col-md-6 cTeletexto">
+
+        <h2>TeleCom</h2>
+        <h3>Estudio geoespacial para ubicar la mejor cobertura de antenas</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Obten la mejor rensatilidad de la señal dependiendo de un análisis geoespacial del entorno.</li>
+        </ul>
+
+      
+
+        <h3>Digitalización de procesos </h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Generación de gemelos digitales pera  el mejor análisis.</li>
+          <li><i class="far fa-check-circle"></i>  Supervición mediante drone.</li>
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Footer -->  
+<footer>
+  <section class="footer sectionfooter">
+    <div class="container" >
+      <div class="row footersuperior">
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-uno md-mb-30 sm-mb-30">
+          <img src="img/logo_geocartos_claro.png" width="200" height="34"  alt="">
+          <p>GIS for everyone, anywhere</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-dos md-mb-30 sm-mb-30">
+          <ul>
+            <li><p><i class="fas fa-map-marker-alt"></i>   Prol. 11 Sur 4701 Reforma Agua Azul, 72430 Puebla, Pue.</p></li>
+            <li><p><i class="fas fa-phone-alt"></i> Telefonos: +52 22 22 54 07 75 / +52 22 24 39 76 47</p></li>
+            <li><p><i class="far fa-envelope"></i> geocartosmx@outlook.com</p></li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-tres sm-mb-30">
+          
+          <!-- 
+                      <h2>Mapa de Sitio</h2>
+          <ul>
+            <li><a class="text-secondary" href="#">Eventos</a></li>
+            <li><a class="text-secondary" href="#">Soporte</a></li>
+            <li><a class="text-secondary" href="#">Blog</a></li>
+          </ul>
+           -->
+
+          
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-cuatro sm-mb-30">
+          <h2>Redes sociales</h2>
+          <p>Siguenos en nuestras redes sociales</p>
+          <a href="https://www.facebook.com/geocartos" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/geocartos"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footerinferior">
+        <div class="col-md-10">
+          <p class="footer-bottom-text">  &copy; 2022 Geocartos S.A. de C.V. Todos los derechos reservados. </p>
+        </div>
+        <div class="col-md-2">
+          <a class="text-secondary" href="../privacidad/privacidad.html">Privacidad</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</footer>
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+
+<script type="text/javascript">
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+    
+      var currentScrollpos = window.pageYOffset;
+      if(prevScrollpos > currentScrollpos) {
+            document.getElementById("navbar").style.top = "0";
+      } else {
+            document.getElementById("navbar").style.top = "-130px";
+      }
+    
+      prevScrollpos = currentScrollpos;
+    
+      }
+    
+</script>
+
+</body>
+</html>

@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+    <title>Teledetección y Sensores Remotos</title>
+    <link rel="icon"  href="img/favicon.ico">
+
+<!--Bootstrap--> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--CSS-->
+   <link rel="stylesheet" href="css/style.css">
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+<!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/7d054598a9.js" crossorigin="anonymous"></script>
+<!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css5">    
+    <link rel="stylesheet" href="css/animate.css">
+<!--Contador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<!--Graficacircular-->
+    <script src="js/jquery.easypiechart.js"></script>
+<!--Google analytics-->   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBS3TBNT4L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LBS3TBNT4L');
+</script>
+</head> 
+<body>
+
+
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img src="img/logo_geocartos.png" width="200" height="34"  alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Soluciones
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../IngenieriayConstruccion/ingenieriayconstruccion.html">Ingeniería y Construcción</a>
+          <a class="dropdown-item" href="../GobiernoySociedad/gobiernoysociedad.html">Gobierno y Sociedad</a>
+          <a class="dropdown-item" href="../RecursosnaturalesyMedioambiente/recursosnaturalesyambiente.html">Recursos Naturales y Ambiente</a>
+          <a class="dropdown-item" href="../LogisticayTransporte/logisticaytransporte.html">Logística y Transporte</a>
+          <a class="dropdown-item" href="../NegociosyFinanzas/negociosyfinanzas.html">Negocios y Finanzas</a>
+          <a class="dropdown-item" href="../Capacitacion/capacitacion.html">Capacitación</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tecnologías
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../geografiadigital/geografiadigital.html">Geografía Digital</a>
+          <a class="dropdown-item" href="../teledeteccionysensores/sensoresremotos.html">Teledetección y Sensores Remotos</a>
+          <a class="dropdown-item" href="../plataformasdigitales/plataformasdigitales.html">Plataformas Digitales y Webmapping </a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-secondary"><a href="../contacto/contacto.html">Contacto</a></button>
+      </li>
+    </ul>
+  </div>
+  
+  </div>
+</nav>
+
+<!--Portada Remoto--> 
+<section class="portada">
+
+  <div class="container-fluid portadaremoto">
+    <div class="row">
+      <div class="col-md-6  col-sm-12  col-xs-12 text-center">
+        <h1>Teledetección y Sensores Remotos</h1>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!--Contenedor TextoImagen Remoto -->   
+<section class="contenedortextoimagenRemo">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cRemotexto">
+
+        <h2>Datos Geoespaciales de Manera Remota</h2>
+
+        <p>En geocartos facilitamos la extracción de datos geoespaciales mediante el uso de percepción remota como tecnología de vanguardia para recolectar, procesar e interpretar información que ocurren en la superficie terrestre, sin establecer contacto físico con éstos. </p>
+
+      </div>
+
+      <div class="col-md-6 cRemoimagen">
+        <img src="img/percepcionremota.png" class="img-fluid" alt="">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Imagen Full Teledeteccion--> 
+<section class="contenedorfullimagentele1">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Space Made Easy</h1>
+      <p class="lead font-weight-normal">En Geocartos® ofrecemos amplia experiencia en obtención y análisis de información 
+        mediante UAV e imágenes de satélite de alta resolución.   Para la obtención ágil de información con un proceso 100% digital </p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</section> 
+
+<!--Notas Teledeteccion--> 
+<div class="container notasteledeteccion">
+  <div class="row">
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notagobierno1.jpg" alt="">
+      <h4>Inteligencia Visible</h4>
+      <p>Diferentes sensores permiten visualizar información que a nuestros ojos seria imposible </p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notapixel.png" alt="">
+      <h4>Percibir lo Imperceptible </h4>
+      <p>Las imágenes de satélite ofrecen una clara evidencia visual y nuevas perspectivas </p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaimginfo.png" alt="">
+      <h4> Imágenes son Información</h4>
+      <p>
+        Gracias a la naturaleza de la imagen, permite obtener datos y analizarlos de una manera eficiente    </p>
+    </div>   
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notavoldatos.png" alt="">
+      <h4>Volúmenes de Datos</h4>
+      <p>Lla obtención de información mediante imágenes ha tenido un crecimiento expoencial, al grado de ser Bid Data</p>
+    </div>
+  </div>
+</div> 
+
+
+<!--Contenedor Cartas Teledeteccion-->
+<section class="cartasteledeteccion">
+  <div class="container ">
+    <div class="row">
+
+
+      <div class="col-md-12 col-sm-12 col-xs-12 ">     
+        <h3>      <h2>La tecnologia satelital nos permite dar soluciones a diferentes problematicas</h2></h3>
+      </div>
+      
+
+      <div class="col-md-4  col-sm-6  col-xs-12 text-center">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top " src="img/aplicacionsatelitesagro.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Agricultura</h5>
+                  <p class="card-text">Analizar la producción en cualquier ubicación, ayuda a los agricultores a realizar un seguimiento de sus resultados y proporciona información del acondicionador del suelo para el año siguiente.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top " src="img/aplicacionsatelitesdesastres.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Desastres Naturales</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsateliteinfra1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Infraestructura</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="col-md-4  col-sm-6  col-xs-12 text-center">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsatelitecatastro1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Gobierno</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsatelitesforestal.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Forestal</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsatelitemina.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Minería</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      
+      <div class="col-md-4  col-sm-6  col-xs-12 text-center">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsatelitescatastro.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Catastro</h5>
+                  <p class="card-text">Actualización del catastro de los proyectos urbanísticos .</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsatelitesDEM.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Infraestructura</h5>
+                  <p class="card-text">Análisis del terreno mediante el uso de modelos digitales del terreno.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card shadow-sm  mb-5 bg-white rounded">
+                <img class="card-img-top"  src="img/aplicacionsateliteclima.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Clima</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor TextoImagen Teledeteccion -->   
+<section class="contenedortextoimagenTele">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cTeletexto">
+
+        <h2>En la siguiente generación de soluciones geoespaciales</h2>
+
+        <p> Proporcionamos soluciones mediante el acceso a constelación satelitales tanto públicas como privadas, adaptamos el proyecto para ofrecer la mejor solución y así hacer la mejor toma de decisiones de una manera precisa y dinámica. </p>
+
+      </div>
+
+      <div class="col-md-6 cTeleimagen">
+        <img src="img/imagensatelite1.png" class="img-fluid" alt="">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Cartitas Satelites-->
+<section class="cartitassatelital">
+
+  <div class="card-columns contenedorcartitas">
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body"> 
+        <h5 class="card-title">Monitoreo Constante</h5>
+        <p class="card-text">Supervisa los avances con alta resolución de imagen</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Procesamiento de Imagen</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Análisis de Bandas Espectrales</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-columns contenedorcartitas">
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body"> 
+        <h5 class="card-title">Compensación Atmosférica</h5>
+        <p class="card-text">Supervisa los avances con alta resolución de imagen</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Imágenes en Alta Resolución</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Compensación de Bandas </h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!--Contenedor Imagen Full Radar--> 
+<section class="contenedorfullimagenradar">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">See What is Possible</h1>
+      <p class="lead font-weight-normal"> Geocartos® somos pioneros en el manejo de tecnologia de imagenes de radar</p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+
+
+<div class="container ">
+  <div class="row">
+    <div class="col-md-4  col-sm-6 text-center">
+      <img src="img/notaradar1.png" class="img-fluid" alt="">
+      <h4>Digitalización</h4>
+      <p>24/7 Monitoreo sin importar el clima</p>
+    </div>
+    <div class="col-md-4 col-sm-6 text-center">
+      <img src="img/notaradar2.png" class="img-fluid" alt="">
+      <h4>Supervición</h4>
+      <p>Acceso a imágenes precisas de alta resolución </p>
+    </div>
+    <div class="col-md-4 col-sm-6 text-center">
+      <img src="img/notaradar3.png" class="img-fluid" alt="">
+      <h4>Agilización</h4>
+      <p>Plazo de recurrencia orbital constante </p>
+    </div>  
+  </div>
+</div>
+  </div>
+  
+</section> 
+
+
+<!--Contenedor TextoImagen Radar -->   
+<section class="contenedortextoimagenRadar">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cRadarimagen">
+        <div class="img-comp-container">
+          <div class="img-comp-img">
+            <img src="img/imagenopticamanilla.png" width="550" height="400">
+          </div>
+          <div class="img-comp-img img-comp-overlay">
+            <img src="img/imagenradarmanilla.png.jpg" width="550" height="400">
+          </div>
+        </div>
+       </div>
+
+      <div class="col-md-6 cRadartexto">
+
+        <h2>En la siguiente generación de soluciones geoespaciales</h2>
+
+        <p>Las imágenes modernas se capturan desde una amplia gama de altitudes que van desde el nivel del suelo a más de 22.000 millas sobre la Tierra. Proporcionamos soluciones mediante constelaciones satelitales con acceso público y privado, así como con monitoreo diario, imágenes de alta resolución, entre otras novedades tecnológicas. </p>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Cartitas Radar-->
+<section class="cartitasradar">
+
+  <div class="card-columns contenedorcartitas">
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body"> 
+        <h5 class="card-title">Mapas de Inundación</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Monitoreo de Desplazamineto del Terreno</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Seguimiento de Obra</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-columns contenedorcartitas">
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body"> 
+        <h5 class="card-title">Análisis de amplitud y Series de tiempo</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Detección de derrames de petróleo</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+    <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+        <h5 class="card-title">Seguimiento de incencios forestales</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!--Contenedor Imagen Full Drone--> 
+<section class="contenedorfullimagenDrone">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Measure From Images</h1>
+      <p class="lead font-weight-normal">Pioneros en la implementación de tecnología drones para dar respuesta a diferentes problemáticas, contamos con equipo UAV´s  de última generación para el monitoreo y acceso a zonas complejas. </p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block">
+
+    </div>
+  </div>
+  
+</section> 
+
+
+<!--Notas Drone--> 
+<div class="container notasdrone">
+  <div class="row">
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notadrone1.png" alt="">
+      <h4>Digitalización</h4>
+      <p>Integramos tus proyectos a una era digital y geoespacial.</p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notadrone2.png" alt="">
+      <h4>Supervición</h4>
+      <p>Monitorea cambios sobre el terreno o avances de proyectos a través del tiempo, para la mejor toma de decisión. </p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notadrone3.png" alt="">
+      <h4>Agilización</h4>
+      <p>Ahorra tiempo en obtención de información mediante el procesamiento y análisis de datos geoespaciales. </p>
+    </div>    
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notadrone4.png" alt="">
+      <h4>Recolección de Datos</h4>
+      <p>Agiliza la adquisición de datos geoespaciales, especialmente en zonas remotas o de difícil acceso.</p>
+    </div>
+  </div>
+</div> 
+
+
+<!--Contenedor TextoImagen Drone 1 -->   
+<section class="contenedortextoimagenDrone1">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cDrone1imagen">
+
+        <img src="img/dronesimagen1.png" class="img-fluid" alt="Atlas de Riesgo">
+    
+      </div>
+
+      <div class="col-md-6 cDrone1texto">
+
+        <h2>Especialistas en Soluciones Geoespaciales con equipos aeros no tripulados</h2>
+     
+        <p>Uso de tecnologías  través de captura de datos geoespaciales y sistemas de información geográfica, brindamos respuestas en proyectos de topografía, cartografía, catastro e incluso minería a cielo abierto, esto para la toma de decisiones en el ordenamiento territorial.</p>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Contenedor TextoImagen Drone 2 -->   
+<section class="contenedortextoimagenDrone2">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cDrone2texto">
+
+        <h3>Algunas de nuestras soluciones:</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i>  Levantamientos fotogramétricos.</li>
+          <li><i class="far fa-check-circle"></i>  Ortofotos.</li>
+          <li><i class="far fa-check-circle"></i>  Seguimineto de obra.</li>
+          <li><i class="far fa-check-circle"></i>  Nubes de puntos.</li>
+          <li><i class="far fa-check-circle"></i>  DEM(Modelo Digital de Elevación), DTM(Modelo Digital del Terreno), DSM(Modelos Digital de Superficie).</li>
+        </ul>
+
+      </div>
+
+      <div class="col-md-6 cDrone2imagen">
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/aplicaciondrone_1-01.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/aplicaciondrone_3-01.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/aplicaciondrone_2-01.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/aplicaciondrone_4-01.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Footer -->  
+<footer>
+  <section class="footer sectionfooter">
+    <div class="container" >
+      <div class="row footersuperior">
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-uno md-mb-30 sm-mb-30">
+          <img src="img/logo_geocartos.png" width="200" height="34"  alt="">
+          <p>GIS for everyone, anywhere</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-dos md-mb-30 sm-mb-30">
+          <ul>
+            <li><p><i class="fas fa-map-marker-alt"></i>   Prol. 11 Sur 4701 Reforma Agua Azul, 72430 Puebla, Pue.</p></li>
+            <li><p><i class="fas fa-phone-alt"></i> Telefonos: +52 22 22 54 07 75 / +52 22 24 39 76 47</p></li>
+            <li><p><i class="far fa-envelope"></i> geocartosmx@outlook.com</p></li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-tres sm-mb-30">
+          
+          <!-- 
+                      <h2>Mapa de Sitio</h2>
+          <ul>
+            <li><a class="text-secondary" href="#">Eventos</a></li>
+            <li><a class="text-secondary" href="#">Soporte</a></li>
+            <li><a class="text-secondary" href="#">Blog</a></li>
+          </ul>
+           -->
+
+          
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-cuatro sm-mb-30">
+          <h2>Redes sociales</h2>
+          <p>Siguenos en nuestras redes sociales</p>
+          <a href="https://www.facebook.com/geocartos" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/geocartos"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footerinferior">
+        <div class="col-md-10">
+          <p class="footer-bottom-text">  &copy; 2021 Geocartos S.A. de C.V. Todos los derechos reservados. </p>
+        </div>
+        <div class="col-md-2">
+          <a class="text-secondary" href="../privacidad/privacidad.html">Privacidad</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</footer>
+
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+<script type="text/javascript">
+
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+
+  var currentScrollpos = window.pageYOffset;
+  if(prevScrollpos > currentScrollpos) {
+        document.getElementById("navbar").style.top = "0";
+  } else {
+        document.getElementById("navbar").style.top = "-130px";
+  }
+
+  prevScrollpos = currentScrollpos;
+
+  }
+
+</script>
+
+<script>
+  /*Contenedor para comparar imagenes*/
+
+
+  function initComparisons() {
+    var x, i;
+    /*find all elements with an "overlay" class:*/
+    x = document.getElementsByClassName("img-comp-overlay");
+    for (i = 0; i < x.length; i++) {
+      /*once for each "overlay" element:
+      pass the "overlay" element as a parameter when executing the compareImages function:*/
+      compareImages(x[i]); 
+    }
+    function compareImages(img) {
+      var slider, img, clicked = 0, w, h;
+      /*get the width and height of the img element*/
+      w = img.offsetWidth;
+      h = img.offsetHeight;
+      /*set the width of the img element to 50%:*/
+      img.style.width = (w / 2) + "px";
+      /*create slider:*/
+      slider = document.createElement("DIV");
+      slider.setAttribute("class", "img-comp-slider");
+      /*insert slider*/
+      img.parentElement.insertBefore(slider, img);
+      /*position the slider in the middle:*/
+      slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
+      slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+      /*execute a function when the mouse button is pressed:*/
+      slider.addEventListener("mousedown", slideReady);
+      /*and another function when the mouse button is released:*/
+      window.addEventListener("mouseup", slideFinish);
+      /*or touched (for touch screens:*/
+      slider.addEventListener("touchstart", slideReady);
+      /*and released (for touch screens:*/
+      window.addEventListener("touchend", slideFinish);
+      function slideReady(e) {
+        /*prevent any other actions that may occur when moving over the image:*/
+        e.preventDefault();
+        /*the slider is now clicked and ready to move:*/
+        clicked = 1;
+        /*execute a function when the slider is moved:*/
+        window.addEventListener("mousemove", slideMove);
+        window.addEventListener("touchmove", slideMove);
+      }
+      function slideFinish() {
+        /*the slider is no longer clicked:*/
+        clicked = 0;
+      }
+      function slideMove(e) {
+        var pos;
+        /*if the slider is no longer clicked, exit this function:*/
+        if (clicked == 0) return false;
+        /*get the cursor's x position:*/
+        pos = getCursorPos(e)
+        /*prevent the slider from being positioned outside the image:*/
+        if (pos < 0) pos = 0;
+        if (pos > w) pos = w;
+        /*execute a function that will resize the overlay image according to the cursor:*/
+        slide(pos);
+      }
+      function getCursorPos(e) {
+        var a, x = 0;
+        e = (e.changedTouches) ? e.changedTouches[0] : e;
+        /*get the x positions of the image:*/
+        a = img.getBoundingClientRect();
+        /*calculate the cursor's x coordinate, relative to the image:*/
+        x = e.pageX - a.left;
+        /*consider any page scrolling:*/
+        x = x - window.pageXOffset;
+        return x;
+      }
+      function slide(x) {
+        /*resize the image:*/
+        img.style.width = x + "px";
+        /*position the slider:*/
+        slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+      }
+    }
+  }
+  </script>
+
+<script>
+  /*Contenedor para comparar imagenes*/
+  /*Execute a function that will execute an image compare function for each element with the img-comp-overlay class:*/
+  initComparisons();
+  </script>
+</body>
+</html>

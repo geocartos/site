@@ -1,0 +1,280 @@
+/*Navbar*/
+#navbar {
+   background: rgba(243, 239, 239);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: top 2s;
+}
+
+
+/*Portada Gobierno*/
+.portadagob {
+   width: 100%;
+   height: 450px;
+   background-image: url(../img/portadagobierno.png);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadagob  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #ffffff;
+ }
+
+
+
+/*Notas de Gobierno*/
+.notasgobierno{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notasgobierno h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notasgobierno p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+
+/*Contenedor Imagen Full Gobierno 1*/
+.contenedorfullgobierno1{
+   height: 600px;
+   background: url(../img/fondogob1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorfullgobierno1 h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: rgba(18, 4, 53, 0.986);
+   font-size: 50px;
+}
+
+.contenedorfullgobierno1 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: rgba(18, 4, 53, 0.986);
+}
+
+
+
+/*Contenedor TextoImagen Territorial*/
+.contenedortextoimagenTerri  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenTerri .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenTerri .cTerritexto{
+   height: 450px;
+}
+
+.contenedortextoimagenTerri .cTerriimagen{
+   height: 500px;
+}
+
+.contenedortextoimagenTerri li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenTerri h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenTerri p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+/*Contenedor TextoImagen TServicios Publicos*/
+.contenedortextoimagenSPub  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenSPub .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenSPub .cTerritexto{
+   height: 450px;
+}
+
+.contenedortextoimagenSPub .cTerriimagen{
+   height: 500px;
+}
+
+.contenedortextoimagenSPub li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenSPub h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenSPub p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+/*Contenedor Cartas Ingenieria 1*/
+.cartasingenieria .card{
+   height: 550px;
+}
+
+.cartasingenieria{
+   margin: 10vw;
+  }
+
+.cartasingenieria h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color:rgb(0, 0, 0)
+}
+
+
+.cartasingenieria h5{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color:rgb(0, 0, 0)
+}
+
+.cartasingenieria p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+/*Cartitas*/
+.cartitas {
+   margin-top: 60px;
+   margin-bottom: 60px;
+   margin-left: 5%;
+   margin-right: 5%;
+   text-align: center;
+   
+}
+
+ 
+/*footer*/
+.footer p{
+   color: #999;
+   line-height: 25px;
+}
+
+.footer h2 {
+   color: #fff;
+   font-size:  18px;
+}
+
+.sectionfooter{
+   background:rgb(21, 21, 20)
+   
+}
+
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+
+.footerinferior{
+   background: black;
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#586113;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}
+
+
+/*Media Queries*/
+/*Smarthphones*/
+@media only screen and (max-width: 576px) {
+   .portadagob h1 {
+      font-size: 40px;
+    }
+
+   .contenedorfullgobierno1 h1 {
+      font-size: 40px;
+      margin-top: 150px;
+    }
+
+}
+
+/*Tablets*/
+@media only screen and (min-width: 577px) and (max-width: 760px) {
+   .contenedorfullgobierno1 h1 {
+      margin-top: 150px;
+    }
+
+
+}
+
+

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, maximum-scale=1.0">
+    <title>Plataformas Digitales</title>
+    <link rel="icon"  href="img/favicon.ico">
+
+<!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+<!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">   
+<!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/7d054598a9.js" crossorigin="anonymous"></script>
+<!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css5">    
+    <link rel="stylesheet" href="css/animate.css">
+<!--Contador-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+<!--Graficacircular-->
+    <script src="js/jquery.easypiechart.js"></script>
+<!--Google analytics-->   
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LBS3TBNT4L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LBS3TBNT4L');
+</script>
+</head>
+<body>
+
+<!--Mapa-->
+<link rel="stylesheet" href="map/css/leaflet.css">
+<link rel="stylesheet" href="map/css/leaflet-control-credits.css" />
+<link rel="stylesheet" href="map/css/L.Control.Locate.min.css">
+<link rel="stylesheet" href="map/css/leaflet-control-credits.css">
+<link rel="stylesheet" href="map/css/webmap-brt.css">
+<link rel="stylesheet" href="map/css/fontawesome-all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+</script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+</script>
+</head>
+<body>
+
+ <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img src="img/logo_geocartos.png" width="200" height="34"  alt="">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Soluciones
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../IngenieriayConstruccion/ingenieriayconstruccion.html">Ingeniería y Construcción</a>
+          <a class="dropdown-item" href="../GobiernoySociedad/gobiernoysociedad.html">Gobierno y Sociedad</a>
+          <a class="dropdown-item" href="../RecursosnaturalesyMedioambiente/recursosnaturalesyambiente.html">Recursos Naturales y Ambiente</a>
+          <a class="dropdown-item" href="../LogisticayTransporte/logisticaytransporte.html">Logística y Transporte</a>
+          <a class="dropdown-item" href="../NegociosyFinanzas/negociosyfinanzas.html">Negocios y Finanzas</a>
+          <a class="dropdown-item" href="../Capacitacion/capacitacion.html">Capacitación</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tecnologías
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="../geografiadigital/geografiadigital.html">Geografía Digital</a>
+          <a class="dropdown-item" href="../teledeteccionysensores/sensoresremotos.html">Teledetección y Sensores Remotos</a>
+          <a class="dropdown-item" href="../plataformasdigitales/plataformasdigitales.html">Plataformas Digitales y Webmapping </a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <button type="button" class="btn btn-outline-secondary"><a href="../contacto/contacto.html">Contacto</a></button>
+      </li>
+    </ul>
+  </div>
+  
+  </div>
+</nav> 
+
+<!--Portada Plataformas--> 
+<section class="portada">
+
+  <div class="container-fluid portadaplataforma">
+    <div class="row">
+      <div class="col-md-6  col-sm-12  col-xs-12 text-center">
+        <h1>Plataformas Digitales y Webmapping</h1>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!--Notas Plataformas--> 
+<div class="container notasplataformas">
+  <div class="row">
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaweb1.jpg" alt="">
+      <h2>Software</h2>
+      <p>Desarrollo de portales WEB para la <strong>visualización y análisis espacial</strong>.</p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaweb2.jpg" alt="">
+      <h2>Visualización</h2>
+      <p><strong>Representa tu información</strong> de una manera ágil y temática en linea </p>
+    </div>
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaweb3.jpg" alt="">
+      <h2>En Tiempo Real</h2>
+      <p><strong>Monitorea y visualiza  datos</strong> o actividad completamente en tiempo real </p>
+    </div>  
+    <div class="col-md-3  col-sm-6  col-xs-12 text-center">
+      <img src="img/notaweb4.jpg" alt="">
+      <h2>Plataformas</h2>
+      <p>Desarrollo de plataformas digitales para la <strong>representación de información geográfica</strong> </p>
+    </div>
+  </div>
+</div> 
+
+<!--Contenedor Imagen Full Plataforma 1--> 
+<section class="contenedorfullimagenplataforma1">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Simpler, Faster Spatial Analytics</h1>
+      <p class="lead font-weight-normal">
+        <strong>Datos de ubicación</strong> precisos y potentes herramientas que harán cambiar la forma en que nos localizamos por el mundo.
+       </p>
+    
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</section> 
+
+
+<!--Contenedor TextoImagen Sistemas de Gestión e Integración-->   
+<section class="contenedortextoimagenSGI">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cSGItexto">
+
+        <h2>Sistemas de Gestión e Integración  </h2>
+        
+        <h3>Tableros de Control</h3>
+        <p>Representa, manipula y visualiza datos geoespaciales en manera interactiva</p>
+
+        <h3>Geoportales</h3>
+        <p>Descube, visualiza y acceder a información geoespacial  de manera ágil gracias a la organización que ofrecen</p>
+
+      </div>
+
+
+      <div class="col-md-6 cSGIimagen">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/tablerocontrol1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/tablerocontrol2.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/tablerocontrol3.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--Contenedor TextoImagen Mobile Mapping-->   
+<section class="contenedortextoimagenMM">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cMMimagen">
+        <img src="img/appmobil1.png" class="img-fluid" alt="">
+      </div>
+
+
+      <div class="col-md-6 cMMtexto">
+
+        <h2>Mobile Mapping </h2>
+        
+        <h3>Aplicaciones para levantamiento en campo</h3>
+        <p>Agiliza tus levantamientos mediante la integración de información en una sola aplicación</p>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Imagen Full Plataforma 2--> 
+<section class="contenedorfullimagenplataforma2">
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">Maps and Location </h1>
+      <p class="lead font-weight-normal">Monitorea el estado de actividades, su rendimiento y activos en tiempo real. Mediante gráficos, mapas y otros elementos visuales. </p>
+      <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->    
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</section> 
+
+<!--Contenedor lineas Webamapping y Geoportales -->    
+<section class="contenedortextoimagenWG">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cWGtexto">
+
+        <h2>Web Mapping</h2>
+        
+        <h3>Visores WEB</h3>
+        <p>Representa información geoespacial de manera didáctica online</p>
+
+        <h3>Mapas Digitales</h3>
+        <p>Representa información geoespacial de manera didáctica online</p>
+
+      </div>
+
+
+      <div class="col-md-6 cWGimagen">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/visorweb1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/visorweb2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/visorweb3.png" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/visorweb4.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor TextoImagen Bases de Datos-->   
+<section class="contenedortextoimagenDB">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cDBimagen">
+        <img src="img/basesdedatosgeoespacial1.png" class="img-fluid" alt="">
+      </div>
+
+
+      <div class="col-md-6 cDBtexto">
+
+        <img src="img/gestion e integracion.png"  class="img-fluid" alt="Mapa Digital">
+        
+        <h2>Bases de Datos Geoespaciales</h2>
+
+        <h3>Normativa Mexicana</h3>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i> Actualización de DB geoespaciales</li>
+          <li><i class="far fa-check-circle"></i> Creación de bases de datos geograáficas</li>
+          <li><i class="far fa-check-circle"></i> Soporte de DB geoespaciales</li>
+          <li> Entre otras más soluciones</li>
+          </ul>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor TextoImagen Desarrollo-->   
+<section class="contenedortextoimagenDesarrollo">
+  <div class=".container-fluid contenedorinterno"> 
+    <div class="row">
+
+      <div class="col-md-6 cDesarrollotexto">
+
+        <h2>Desarrollo </h2>
+
+        <ul>
+          <li><i class="far fa-check-circle"></i> Creación de scripts en PyQGIS para soluciones particulares</li>
+          <li> Entre otras más soluciones</li>
+          </ul>
+
+      </div>
+
+      <div class="col-md-6 cDesarrolloimagen">
+        <img src="img/desarrollo.png" class="img-fluid" alt="">
+      </div>
+
+
+
+
+    </div>
+  </div>
+</section>
+
+
+<!--Contenedor Mapa Metrobus--> 
+<section class="mapametrobuspuebla">
+  <div id="map">
+  </div>
+</section>
+
+<!--Tecnologias-->   
+<section class="lideresinustriaplataformas">
+  <div class="container">
+    <div class="row align-items-center justify-content-center  ">
+      <h2>Tecnologías con las que trabajamos</h2>
+    </div>
+    <div class="row align-items-center justify-content-center">
+
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+        <!-- Brand -->
+        <div>
+          <img src="img/python.png" class="img-fluid" alt="QGIS"> 
+           </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+        <!-- Brand -->
+        <div>
+          <img src="img/qgis.png" class="img-fluid" alt="QGIS"> 
+           </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+        <!-- Brand -->
+        <div>
+          <img src="img/javascript.png" class="img-fluid" alt="arcgis"> 
+           </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+        <!-- Brand -->
+        <div>
+          <img src="img/leaflet.png" class="img-fluid" alt="CARTO"> 
+           </div>
+      </div>
+
+      <div class="col-6 col-sm-4 col-md-2 mb-4 mb-md-0">
+        <!-- Brand -->
+        <div>
+          <img src="img/postgresql.png" class="img-fluid" alt="HEXAGON"> 
+           </div>
+      </div>
+
+
+
+  </div> <!-- / .container -->
+</section>
+
+<!-- Footer -->  
+<footer>
+  <section class="footer sectionfooter">
+    <div class="container" >
+      <div class="row footersuperior">
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-uno md-mb-30 sm-mb-30">
+          <img src="img/logo_geocartos.png" width="200" height="34"  alt="">
+          <p>GIS for everyone, anywhere</p>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-dos md-mb-30 sm-mb-30">
+          <ul>
+            <li><p><i class="fas fa-map-marker-alt"></i>   Prol. 11 Sur 4701 Reforma Agua Azul, 72430 Puebla, Pue.</p></li>
+            <li><p><i class="fas fa-phone-alt"></i> Telefonos: +52 22 22 54 07 75 / +52 22 24 39 76 47</p></li>
+            <li><p><i class="far fa-envelope"></i> geocartosmx@outlook.com</p></li>
+          </ul>
+
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-tres sm-mb-30">
+          
+          <!-- 
+                      <h2>Mapa de Sitio</h2>
+          <ul>
+            <li><a class="text-secondary" href="#">Eventos</a></li>
+            <li><a class="text-secondary" href="#">Soporte</a></li>
+            <li><a class="text-secondary" href="#">Blog</a></li>
+          </ul>
+           -->
+
+          
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 segmento-cuatro sm-mb-30">
+          <h2>Redes sociales</h2>
+          <p>Siguenos en nuestras redes sociales</p>
+          <a href="https://www.facebook.com/geocartos" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/company/geocartos"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row footerinferior">
+        <div class="col-md-10">
+          <p class="footer-bottom-text">  &copy; 2022 Geocartos S.A. de C.V. Todos los derechos reservados. </p>
+        </div>
+        <div class="col-md-2">
+          <a class="text-secondary" href="../privacidad/privacidad.html">Privacidad</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+</footer>
+
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+
+<script type="text/javascript">
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+    
+      var currentScrollpos = window.pageYOffset;
+      if(prevScrollpos > currentScrollpos) {
+            document.getElementById("navbar").style.top = "0";
+      } else {
+            document.getElementById("navbar").style.top = "-130px";
+      }
+    
+      prevScrollpos = currentScrollpos;
+    
+      }
+    
+</script>
+
+<script src="map/js/webmap-brt-expressions.js"></script>
+<script src="map/js/leaflet.js"></script>
+<!-- <script src="js/leaflet-routing-machine.js"></script> -->
+<script src="map/js/L.Control.Locate.min.js"></script>
+<script src="map/js/leaflet-control-credits.js"></script>
+<script src="map/js/leaflet.pattern.js"></script>
+<script src="map/js/leaflet-hash.js"></script>
+<script src="map/js/Autolinker.min.js"></script>
+<script src="map/data/data2.js"></script>
+<script src="map/data/data.js"></script>
+<script src="map/js/main.js"></script>
+
+</body>
+</html>

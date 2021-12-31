@@ -1,0 +1,376 @@
+/*Navbar*/
+#navbar {
+   background: rgba(243, 239, 239);
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: block;
+   transition: top 2s; 
+}
+
+
+/*Portada Ingenieria*/
+.portadainge {
+   width: 100%;
+   height: 450px;
+   background-image: url(../img/portadaingenieria.png);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadainge  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #ffffff;
+ }
+
+
+/*Notas de Ingenieria*/
+.notasingenieria{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notasingenieria h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notasingenieria p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+ 
+/*Contenedor Imagen Full Ingenieria 1*/
+.contenedorfulligenieria1{
+   height: 600px;
+   background: url(../img/fondoinge1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorfulligenieria1 h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color:rgb(255, 255, 255);
+   font-size: 50px;
+}
+
+.contenedorfulligenieria1 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: rgb(239, 239, 241);
+}
+
+
+/*Contenedor TextoImagen Construccion*/
+.contenedortextoimagenCons  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenCons .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenCons .cConstexto{
+   height: 450px;
+}
+
+.contenedortextoimagenCons .cConsimagen{
+   height: 600px;
+}
+
+.contenedortextoimagenCons li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenCons h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenCons p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+/*Contenedor TextoImagen Hidrologia*/
+.contenedortextoimagenHidro  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenHidro .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenHidro .cHidrotexto{
+   height: 450px;
+   margin-top: 100px;
+}
+
+.contenedortextoimagenHidro .cHidroimagen{
+   height: 600px;
+}
+
+.contenedortextoimagenHidro li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenHidro h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenHidro p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+/*Contenedor Cartas Ingenieria 1*/
+.cartasingenieria .card{
+   height: 450px;
+}
+
+.cartasingenieria{
+   margin: 10vw;
+  }
+
+.cartasingenieria h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color:rgb(0, 0, 0)
+}
+
+
+.cartasingenieria h5{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color:rgb(0, 0, 0)
+}
+
+.cartasingenieria p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+/*Contenedor Imagen Full Ingenieria 2*/
+.contenedorfulligenieria2{
+   height: 600px;
+   background: url(../img/fondoinge2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorfulligenieria2 h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color:rgb(11, 23, 87);
+   font-size: 50px;
+}
+
+.contenedorfulligenieria2 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: rgb(110, 110, 129);
+}
+
+
+
+/*Contenedor TextoImagen Telecomunicaciones*/
+.contenedortextoimagenTele  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenTele .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenTele .cTeletexto{
+   height: 450px;
+}
+
+.contenedortextoimagenTele .cTeleimagen{
+   height: 600px;
+}
+
+.contenedortextoimagenTele li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenTele h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenHidro p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+
+
+/*footer*/
+.footer p{
+   color: #999;
+   line-height: 25px;
+}
+
+.footer h2 {
+   color: #fff;
+   font-size:  18px;
+}
+
+.sectionfooter{
+   background:rgb(21, 21, 20)
+   
+}
+
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+
+.footerinferior{
+   background: black;
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#586113;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}
+
+
+
+/*Media Queries*/
+/*Smarthphones*/
+@media only screen and (max-width: 576px) {
+   .portadainge h1 {
+      font-size: 35px;
+    }
+
+   .contenedorfullimagenplataforma1 h1 {
+      font-size: 40px;
+      margin-top: 150px;
+    }
+
+   .contenedorfullimagenplataforma2 h1 {
+      font-size: 40px;
+      margin-top: 150px;
+   } 
+
+   .contenedortextoimagenCons .cConstexto{
+      height: 900px;
+   }
+
+   .contenedortextoimagenCons .cConsimagen{
+      height: 300px;
+   }
+
+   .contenedortextoimagenHidro .cHidrotexto{
+      height: 900px;
+   }
+   
+   .contenedortextoimagenHidro .cHidroimagen{
+      height: 300px;
+   }
+
+   .contenedortextoimagenTele .cTeletexto{
+      height: 700px;
+   }
+   
+   .contenedortextoimagenTele .cTeleimagen{
+      height: 300px;
+   }
+   
+   .cartasingenieria .card{
+      height: 500px;
+   }
+
+}
+
+/*Tablets*/
+@media only screen and (min-width: 577px) and (max-width: 760px) {
+   .contenedorfullimagenplataforma1 h1 {
+      margin-top: 150px;
+    }
+
+    .contenedorfullimagenplataforma2 h1 {
+      margin-top: 150px;
+    }
+
+    .contenedortextoimagenCons .cConstexto{
+      height: 650px;
+   }
+   
+
+}
+
