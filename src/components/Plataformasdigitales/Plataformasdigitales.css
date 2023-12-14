@@ -1,0 +1,297 @@
+/*Portada Plataforma*/
+.portadaplataforma {
+   width: 100%;
+   height: 450px;
+   background-image: url(../../images/plataformas/portadawebmapping.svg);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadaplataforma  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #0e0425;
+ }
+
+
+
+
+/*Notas de Plataformas*/
+.notasplataformas{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notasplataformas h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notasplataformas p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+
+
+/*Contenedor Imagen Full Plataforma 1*/
+.contenedorfullimagenplataforma1{
+  height: 600px;
+  background: url(../../images/plataformas/fondoweb1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.contenedorfullimagenplataforma1 h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color:rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.contenedorfullimagenplataforma1 p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: rgb(239, 239, 241);
+}
+
+
+
+
+/*Contenedor TextoImagen Sistemas de Gestión e Integración*/
+.contenedortextoimagenSGI  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenSGI .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenSGI .cSGItexto{
+   height: 450px;
+}
+
+.contenedortextoimagenSGI .cSGIimagen{
+   height: 450px;
+}
+
+.contenedortextoimagenSGI h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenSGI p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+/*Contenedor TextoImagen Mobile Mapping*/
+.contenedortextoimagenMM  {
+   background: linear-gradient(70deg,#ffffff,#ffffff);
+}
+
+.contenedortextoimagenMM .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenMM .cMMtexto{
+   height: 450px;
+}
+
+.contenedortextoimagenMM .cMMimagen{
+   height: 450px;
+}
+
+.contenedortextoimagenMM h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenMM p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+
+
+/*Contenedor Imagen Full Plataforma 2*/
+.contenedorfullimagenplataforma2{
+   height: 600px;
+   background: url(../../images/plataformas/fondoweb2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorfullimagenplataforma2 h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: #0e0425;
+   font-size: 50px;
+}
+
+.contenedorfullimagenplataforma2 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #0e0425;
+}
+
+
+
+/*Contenedor TextoImagen Webamapping y Geoportales*/
+.contenedortextoimagenWG  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenWG .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenWG .cSGItexto{
+   height: 450px;
+}
+
+.contenedortextoimagenWG .cSGIimagen{
+   height: 470px;
+}
+
+.contenedortextoimagenWG h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenWG p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+/*Contenedor TextoImagen Bases de Datos*/
+.contenedortextoimagenDB  {
+   background: linear-gradient(70deg,#ffffff,#ffffff);
+}
+
+.contenedortextoimagenDB .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenDB .cDBtexto{
+   height: 450px;
+}
+
+.contenedortextoimagenDB .cDBimagen{
+   height: 450px;
+}
+
+.contenedortextoimagenDB li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenDB h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenDB p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+/*Contenedor TextoImagen Desarrollo*/
+.contenedortextoimagenDesarrollo  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenDesarrollo .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenDesarrollo .cDesarrollotexto{
+   height: 450px;
+}
+
+.contenedortextoimagenDesarrollo .cDesarrolloimagen{
+   height: 450px;
+}
+
+.contenedortextoimagenDesarrollo li{
+   list-style-type: none;
+}
+
+
+.contenedortextoimagenDesarrollo h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenDesarrollo p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+/*Líderes Industriales*/
+.lideresinustriaplataformas{
+   background: linear-gradient(70deg,rgb(223, 223, 223),rgb(241, 246, 252));
+   padding: 10vw;
+}
+
+.lideresinustriaplataformas h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color:rgb(0, 0, 0);
+   text-align: center;
+   font-size: 25px;
+   letter-spacing: 1px;
+}

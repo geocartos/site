@@ -1,0 +1,132 @@
+/*Portada Plataforma*/
+.portadageografia {
+   width: 100%;
+   height: 450px;
+   background-image: url(../../images/geografiadigital/portadageodigital.svg);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadageografia  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #0e0425;
+ }
+
+
+ 
+/*Notas Geografía*/
+.notasgeografia{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notasgeografia h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notasgeografia p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+
+
+/*Contenedor TextoImagen Geografia 1*/
+.contenedortextoimagenGeodi  {
+  background: linear-gradient(70deg,#D9D6D6,#D9D6D6);
+}
+
+.contenedortextoimagenGeodi .contenedorinterno{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+
+.contenedortextoimagenGeodi .cGeoditexto{
+  height: 620px;
+}
+
+.contenedortextoimagenGeodi .cGeodiimagen{
+  height: 620px;
+}
+
+.contenedortextoimagenGeodi h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: rgba(18, 4, 53, 0.986);
+  margin-top: 130px;
+}
+
+.contenedortextoimagenGeodi p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color:rgb(0, 0, 0)
+}
+
+
+
+/*Contenedor Imagen Full Plataforma 2*/
+.contenedorfullimagengeodi1{
+  height: 600px;
+  background-image: url(../../images/geografiadigital/GeoDigital_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.contenedorfullimagengeodi1 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.contenedorfullimagengeodi1 p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: #ebeaec;
+}
+
+
+/*Contenedor Cartas Geografia*/
+.cartasgeografia .card{
+  height: 550px;
+}
+
+.cartasgeografia{
+  margin: 10vw;
+ }
+
+.cartasgeografia h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color:rgb(0, 0, 0)
+}
+
+
+.cartasgeografia h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color:rgb(0, 0, 0)
+}
+
+.cartasgeografia p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color:rgb(0, 0, 0)
+}
+
