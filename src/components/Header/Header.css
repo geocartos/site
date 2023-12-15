@@ -1,0 +1,14 @@
+/*Navbar*/
+#navbar {
+    background: rgba(243, 239, 239);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 2s;
+ }
+
+ #navbarSupportedContent {
+    margin-left: 40vw;
+
+ }

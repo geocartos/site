@@ -1,0 +1,162 @@
+/*Portada Logistica*/
+.portadalog {
+   width: 100%;
+   height: 450px;
+   background-image: url(../../images/logistica/portadalogistica.png);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadalog  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #ffffff;
+ }
+
+
+/*Notas de Logistica*/
+.notaslogistica{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notaslogistica h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notaslogistica p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+
+/*Contenedor TextoImagen Logistica 0*/
+.contenedortextoimagenlog0  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenlog0 .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenlog0 .clog0texto{
+   height: 450px;
+   margin-top: 100px;
+}
+ 
+.contenedortextoimagenlog0 .clog0imagen{
+   height: 600px;
+}
+
+.contenedortextoimagenlog0 li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenlog0 h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenlog0 p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+
+/*Contenedor TextoImagen Logistica 1*/
+.contenedortextoimagenlog1  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenlog1 .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenlog1 .clog1texto{
+   height: 450px;
+}
+
+.contenedortextoimagenlog1 .clog1imagen{
+   height: 600px;
+}
+
+.contenedortextoimagenlog1 li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenlog1 h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenlog1 p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+/*Contenedor TextoImagen Logistica 2*/
+.contenedortextoimagenlog2  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenlog2 .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenlog2 .clog2texto{
+   height: 450px;
+   margin-top: 100px;
+}
+
+.contenedortextoimagenlog2 .clog2imagen{
+   height: 600px;
+}
+
+.contenedortextoimagenlog2 li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenlog2 h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenlog2 p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+ 

@@ -1,0 +1,105 @@
+/*Portada Gobierno*/
+.portadagob {
+   width: 100%;
+   height: 450px;
+   background-image: url(../../images/gobierno/portadagobierno.png);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadagob  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #ffffff;
+ }
+
+
+/*Notas de Gobierno*/
+.notasgobierno{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notasgobierno h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notasgobierno p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+
+
+/*Contenedor Imagen Full Gobierno 1*/
+.contenedorfullgobierno1{
+   height: 600px;
+   background: url(../../images/gobierno/fondogob1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorfullgobierno1 h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color: rgba(18, 4, 53, 0.986);
+   font-size: 50px;
+}
+
+.contenedorfullgobierno1 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: rgba(18, 4, 53, 0.986);
+}
+
+
+
+/*Contenedor TextoImagen Territorial*/
+.contenedortextoimagenTerri  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenTerri .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenTerri .cTerritexto{
+   height: 450px;
+}
+
+.contenedortextoimagenTerri .cTerriimagen{
+   height: 500px;
+}
+
+.contenedortextoimagenTerri li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenTerri h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenTerri p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}

@@ -1,0 +1,16 @@
+/*Contenedor Privacidad*/
+
+.contenedorprivacidad{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.contenedorprivacidad h1{
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 28px;
+   text-align: center;
+}
+
+.contenedorprivacidad p{
+   text-align: justify;
+}

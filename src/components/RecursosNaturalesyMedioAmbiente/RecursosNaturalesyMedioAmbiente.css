@@ -1,0 +1,170 @@
+
+/*Portada Plataforma*/
+.portadaambi {
+   width: 100%;
+   height: 450px;
+   background-image: url(../../images/ambiente/portadambiente.png);
+   background-size: cover; 
+   background-position: center;
+ }
+
+ .portadaambi  h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 65px;
+   font-weight: 500;
+   margin-top: 190px;
+   color: #ffffff;
+ }
+
+
+/*Notas Ambiental*/
+.notasambiental{
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+.notasambiental h2{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color:rgb(109, 85, 85);
+   text-align: center;
+   font-size: 18px;
+   margin-top: 10px;
+   letter-spacing: 1px;
+}
+
+.notasambiental p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: #888484;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+
+
+
+/*Contenedor Imagen Full Ambiental 1*/
+.contenedorfullambiental1{
+   height: 600px;
+   background: url(../../images/ambiente/fondorecursos1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+.contenedorfullambiental1 h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   color:rgb(255, 255, 255);
+   font-size: 50px;
+}
+
+.contenedorfullambiental1 p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   color: rgb(239, 239, 241);
+}
+
+
+
+/*Contenedor TextoImagen Ambiental1*/
+.contenedortextoimagenAmbi1  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenAmbi1 .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenAmbi1 .cAmbi1texto{
+   height: 500px;
+}
+
+.contenedortextoimagenAmbi1 .cAmbi1imagen{
+   height: 500px;
+}
+
+.contenedortextoimagenAmbi1 li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenAmbi1 h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenAmbi1 p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+
+/*Contenedor TextoImagen Ambiental2*/
+.contenedortextoimagenAmbi2  {
+   background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+}
+
+.contenedortextoimagenAmbi2 .contenedorinterno{
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+
+.contenedortextoimagenAmbi2 .cAmbi2texto{
+   height: 450px;
+}
+
+.contenedortextoimagenAmbi2 .cAmbi2imagen{
+   height: 500px;
+}
+
+.contenedortextoimagenAmbi2 li{
+   list-style-type: none;
+}
+
+.contenedortextoimagenAmbi2 h2 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+   font-size: 35px;
+   color: rgba(18, 4, 53, 0.986);
+   margin-top: 100px;
+}
+
+.contenedortextoimagenAmbi2 p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+
+
+
+/*Contenedor Cartas Ambiental 1*/
+.cartasambiental .card{
+   height: 550px;
+}
+
+.cartasambiental {
+   margin: 10vw;
+  }
+
+.cartasambiental h5{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
+   color:rgb(0, 0, 0)
+}
+
+.cartasambiental p{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   color:rgb(0, 0, 0)
+}
+ 

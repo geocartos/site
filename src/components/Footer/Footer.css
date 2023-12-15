@@ -1,0 +1,51 @@
+/*footer*/
+.footer p{
+   color: #999;
+   line-height: 25px;
+   text-align: left;
+}
+.footer h2 {
+   color: #fff;
+   font-size:  18px;
+}
+.sectionfooter{
+   background:rgb(21, 21, 20)
+}
+.footersuperior{
+   padding-top: 80px;
+   padding-bottom: 10px;
+}
+.footerinferior{
+   background: black;
+   padding-top: 10px;
+   padding-bottom: 0;
+}
+.segmento-cuatro h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+.segmento-dos ul{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+.segmento-tres h2:before{
+   content: '|';
+   color:#6E76b4;
+   padding-right: 10px;
+}
+
+
+.segmento-cuatro a:hover{
+   background:#586113;
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   border-radius: 50%;
+}
+.segmento-cuatro a i {
+   font-size: 20px;
+   color: #fff;
+   padding: 10px 12px;
+}

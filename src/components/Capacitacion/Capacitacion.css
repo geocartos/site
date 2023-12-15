@@ -1,0 +1,118 @@
+/*Portada Capacitacion*/
+.portadacapa {
+    width: 100%;
+    height: 450px;
+    background-image: url(../../images/capacitacion/portadacapacitacion.png);
+    background-size: cover; 
+    background-position: center;
+  }
+
+  
+ .portadacapa h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    margin-top: 190px;
+    color: #ffffff;
+  }
+ 
+  
+ /*Notas*/
+ .notas{
+    padding: 60px;
+ }
+ 
+ .notas h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+ }
+ 
+ .contenedortreslineas{
+    padding: 15px;
+ }
+ 
+ .notas h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:rgb(109, 85, 85);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+ }
+ 
+ .notas p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #888484;
+    letter-spacing: 1px;
+    font-size: 15px;
+ }
+ 
+ 
+/*Contenedor Texto Imagen*/
+.conttextoimagencapacitacion1 {
+    background: linear-gradient(70deg,#F7FAFF,#F7FAFF);
+ }
+ 
+ .contenedortipoTI{
+    margin-left: 10vw;
+    margin-right: 10vw;
+ }
+ 
+ 
+ .conttextoimagencapacitacion1 .c1texto{
+    height: 450px;
+ }
+ 
+ 
+ 
+ .conttextoimagencapacitacion1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: rgba(18, 4, 53, 0.986);
+    margin-top: 25%;
+ }
+ 
+ 
+ .conttextoimagencapacitacion1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:rgb(0, 0, 0)
+ }
+ 
+
+ /*Contenedor Cartascapacitacion*/
+ .cartascapacitacion {
+    margin: 10vw;
+   }
+ 
+ #targeton{
+   margin-left: 15px;
+ }
+
+ .cartascapacitacion h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:rgb(0, 0, 0)
+ }
+ 
+ 
+ .cartascapacitacion h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:rgb(0, 0, 0)
+ }
+ 
+ .cartascapacitacion p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:rgb(0, 0, 0)
+ }
+ 
+ 
+ 
+ 
+ 
