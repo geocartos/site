@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.6980bdd2.css",
-    "main.js": "/site/static/js/main.0e349e17.js",
+    "main.css": "/site/static/css/main.12285931.css",
+    "main.js": "/site/static/js/main.48cda246.js",
     "static/js/787.d9dea709.chunk.js": "/site/static/js/787.d9dea709.chunk.js",
     "static/media/medioambiente3.gif": "/site/static/media/medioambiente3.06b2c6a333245185d422.gif",
     "static/media/fondoweb1.png": "/site/static/media/fondoweb1.f4ee35bef87720d37f3f.png",
@@ -56,6 +56,7 @@
     "static/media/logisticacard0.svg": "/site/static/media/logisticacard0.6e3a55bde2cd8ec2de682df3d986e53e.svg",
     "static/media/fondogob1.png": "/site/static/media/fondogob1.f216a8eae704f0f1b111.png",
     "static/media/usodesuelo.png": "/site/static/media/usodesuelo.4629ab13cef0e4bb11b8.png",
+    "static/media/bigdata.jpeg": "/site/static/media/bigdata.55e09298d9e121fe6bf1.jpeg",
     "static/media/fondodrone.jpg": "/site/static/media/fondodrone.2f215c80919f55cdb983.jpg",
     "static/media/aplicacionsatelitesDEM.jpg": "/site/static/media/aplicacionsatelitesDEM.e02a0c585397750f6b8e.jpg",
     "static/media/visorweb4.png": "/site/static/media/visorweb4.d072d4b41f3a7c6a6af9.png",
@@ -67,6 +68,7 @@
     "static/media/telecom.png": "/site/static/media/telecom.91832a0d04fac23bb1a9.png",
     "static/media/fondoinge1.jpg": "/site/static/media/fondoinge1.88b1ac52958642c74f9d.jpg",
     "static/media/aplicacionsatelitesdesastres.jpg": "/site/static/media/aplicacionsatelitesdesastres.943f8238ba139a88ba5d.jpg",
+    "static/media/sql.jpeg": "/site/static/media/sql.6583fcee059055c1860d.jpeg",
     "static/media/ingenieria_carta1.png": "/site/static/media/ingenieria_carta1.20a21f63d2cf9dd68ac4.png",
     "static/media/portadabienvenida1.png": "/site/static/media/portadabienvenida1.2f4ba501c3b5c6e21310.png",
     "static/media/ingenieria_carta2.png": "/site/static/media/ingenieria_carta2.e44f08d8b2f2a8010faa.png",
@@ -74,10 +76,12 @@
     "static/media/tablerocontrol1.png": "/site/static/media/tablerocontrol1.d09faf83351862586cb7.png",
     "static/media/somosgeocartos.png": "/site/static/media/somosgeocartos.751f8bd692f23366e263.png",
     "static/media/tablerocontrol2.png": "/site/static/media/tablerocontrol2.08b9dc84905c064e19ad.png",
+    "static/media/selecciondesitios.jpeg": "/site/static/media/selecciondesitios.e67a236c06bda3ee34d7.jpeg",
     "static/media/visorweb2.png": "/site/static/media/visorweb2.94cee4c40a5345cf3dc5.png",
     "static/media/postgresql.png": "/site/static/media/postgresql.12d23ccb6dee6c04af9e.png",
     "static/media/leaflet.png": "/site/static/media/leaflet.d582fbffff2cc3a80300.png",
     "static/media/appmobil1.png": "/site/static/media/appmobil1.c6870b86426a7231b9fa.png",
+    "static/media/masalla.jpeg": "/site/static/media/masalla.97e0a154ddc68e2d7505.jpeg",
     "static/media/portadabienvenida2.png": "/site/static/media/portadabienvenida2.c7caba0503b62f91647a.png",
     "static/media/universidades.png": "/site/static/media/universidades.19d12ef06a0f1927d7c5.png",
     "static/media/visorweb1.png": "/site/static/media/visorweb1.75ca9022b1e3c62c6f69.png",
@@ -118,12 +122,12 @@
     "static/media/cartaredhidricacuenca.png": "/site/static/media/cartaredhidricacuenca.4ca547c9f89cecdbbb40.png",
     "static/media/geocartos.svg": "/site/static/media/geocartos.59b2da5eed7836d83a97c6d1ace0acd0.svg",
     "index.html": "/site/index.html",
-    "main.6980bdd2.css.map": "/site/static/css/main.6980bdd2.css.map",
-    "main.0e349e17.js.map": "/site/static/js/main.0e349e17.js.map",
+    "main.12285931.css.map": "/site/static/css/main.12285931.css.map",
+    "main.48cda246.js.map": "/site/static/js/main.48cda246.js.map",
     "787.d9dea709.chunk.js.map": "/site/static/js/787.d9dea709.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6980bdd2.css",
-    "static/js/main.0e349e17.js"
+    "static/css/main.12285931.css",
+    "static/js/main.48cda246.js"
   ]
 }
