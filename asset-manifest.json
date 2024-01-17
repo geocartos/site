@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/site/static/css/main.1a106804.css",
-    "main.js": "/site/static/js/main.b452f9ac.js",
+    "main.js": "/site/static/js/main.fe5721c7.js",
     "static/js/787.d9dea709.chunk.js": "/site/static/js/787.d9dea709.chunk.js",
     "static/media/medioambiente3.gif": "/site/static/media/medioambiente3.06b2c6a333245185d422.gif",
     "static/media/fondoweb1.png": "/site/static/media/fondoweb1.f4ee35bef87720d37f3f.png",
@@ -69,7 +69,7 @@
     "static/media/telecom.png": "/site/static/media/telecom.91832a0d04fac23bb1a9.png",
     "static/media/fondoinge1.jpg": "/site/static/media/fondoinge1.88b1ac52958642c74f9d.jpg",
     "static/media/aplicacionsatelitesdesastres.jpg": "/site/static/media/aplicacionsatelitesdesastres.943f8238ba139a88ba5d.jpg",
-    "static/media/sql.jpeg": "/site/static/media/sql.6583fcee059055c1860d.jpeg",
+    "static/media/sqlgis.jpeg": "/site/static/media/sqlgis.6583fcee059055c1860d.jpeg",
     "static/media/ingenieria_carta1.png": "/site/static/media/ingenieria_carta1.20a21f63d2cf9dd68ac4.png",
     "static/media/portadabienvenida1.png": "/site/static/media/portadabienvenida1.2f4ba501c3b5c6e21310.png",
     "static/media/ingenieria_carta2.png": "/site/static/media/ingenieria_carta2.e44f08d8b2f2a8010faa.png",
@@ -125,11 +125,11 @@
     "static/media/geocartos.svg": "/site/static/media/geocartos.59b2da5eed7836d83a97c6d1ace0acd0.svg",
     "index.html": "/site/index.html",
     "main.1a106804.css.map": "/site/static/css/main.1a106804.css.map",
-    "main.b452f9ac.js.map": "/site/static/js/main.b452f9ac.js.map",
+    "main.fe5721c7.js.map": "/site/static/js/main.fe5721c7.js.map",
     "787.d9dea709.chunk.js.map": "/site/static/js/787.d9dea709.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a106804.css",
-    "static/js/main.b452f9ac.js"
+    "static/js/main.fe5721c7.js"
   ]
 }
