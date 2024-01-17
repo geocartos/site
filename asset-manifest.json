@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.3b6a55fc.css",
-    "main.js": "/site/static/js/main.212b1519.js",
+    "main.css": "/site/static/css/main.1a106804.css",
+    "main.js": "/site/static/js/main.b452f9ac.js",
     "static/js/787.d9dea709.chunk.js": "/site/static/js/787.d9dea709.chunk.js",
     "static/media/medioambiente3.gif": "/site/static/media/medioambiente3.06b2c6a333245185d422.gif",
     "static/media/fondoweb1.png": "/site/static/media/fondoweb1.f4ee35bef87720d37f3f.png",
@@ -55,6 +55,7 @@
     "static/media/visorweb3.png": "/site/static/media/visorweb3.34cd9493713bf6f670fe.png",
     "static/media/logisticacard0.svg": "/site/static/media/logisticacard0.6e3a55bde2cd8ec2de682df3d986e53e.svg",
     "static/media/fondogob1.png": "/site/static/media/fondogob1.f216a8eae704f0f1b111.png",
+    "static/media/evolucionSIG.jpg": "/site/static/media/evolucionSIG.7814312ce696f05cac86.jpg",
     "static/media/usodesuelo.png": "/site/static/media/usodesuelo.4629ab13cef0e4bb11b8.png",
     "static/media/bigdata.jpeg": "/site/static/media/bigdata.55e09298d9e121fe6bf1.jpeg",
     "static/media/fondodrone.jpg": "/site/static/media/fondodrone.2f215c80919f55cdb983.jpg",
@@ -76,6 +77,7 @@
     "static/media/tablerocontrol1.png": "/site/static/media/tablerocontrol1.d09faf83351862586cb7.png",
     "static/media/somosgeocartos.png": "/site/static/media/somosgeocartos.751f8bd692f23366e263.png",
     "static/media/tablerocontrol2.png": "/site/static/media/tablerocontrol2.08b9dc84905c064e19ad.png",
+    "static/media/iniciorevolucion.jpeg": "/site/static/media/iniciorevolucion.742c41b3c2fe4f43304e.jpeg",
     "static/media/selecciondesitios.jpeg": "/site/static/media/selecciondesitios.e67a236c06bda3ee34d7.jpeg",
     "static/media/visorweb2.png": "/site/static/media/visorweb2.94cee4c40a5345cf3dc5.png",
     "static/media/postgresql.png": "/site/static/media/postgresql.12d23ccb6dee6c04af9e.png",
@@ -122,12 +124,12 @@
     "static/media/cartaredhidricacuenca.png": "/site/static/media/cartaredhidricacuenca.4ca547c9f89cecdbbb40.png",
     "static/media/geocartos.svg": "/site/static/media/geocartos.59b2da5eed7836d83a97c6d1ace0acd0.svg",
     "index.html": "/site/index.html",
-    "main.3b6a55fc.css.map": "/site/static/css/main.3b6a55fc.css.map",
-    "main.212b1519.js.map": "/site/static/js/main.212b1519.js.map",
+    "main.1a106804.css.map": "/site/static/css/main.1a106804.css.map",
+    "main.b452f9ac.js.map": "/site/static/js/main.b452f9ac.js.map",
     "787.d9dea709.chunk.js.map": "/site/static/js/787.d9dea709.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b6a55fc.css",
-    "static/js/main.212b1519.js"
+    "static/css/main.1a106804.css",
+    "static/js/main.b452f9ac.js"
   ]
 }
