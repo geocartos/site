@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.1a106804.css",
-    "main.js": "/site/static/js/main.fe5721c7.js",
+    "main.css": "/site/static/css/main.4f1521d1.css",
+    "main.js": "/site/static/js/main.d58cc973.js",
     "static/js/787.d9dea709.chunk.js": "/site/static/js/787.d9dea709.chunk.js",
     "static/media/medioambiente3.gif": "/site/static/media/medioambiente3.06b2c6a333245185d422.gif",
     "static/media/fondoweb1.png": "/site/static/media/fondoweb1.f4ee35bef87720d37f3f.png",
@@ -35,7 +35,6 @@
     "static/media/fondoinge2.png": "/site/static/media/fondoinge2.976f8f55c190533e7c18.png",
     "static/media/librerias.png": "/site/static/media/librerias.3bbe5b982ceab9c41a08.png",
     "static/media/imganalisisterritorial1.png": "/site/static/media/imganalisisterritorial1.87fbcfecc5dcb8f9ef17.png",
-    "static/media/portadablog.jpg": "/site/static/media/portadablog.5dd35ac4c97e2f38ecf8.jpg",
     "static/media/portadageodigital.svg": "/site/static/media/portadageodigital.7859eb1f5f8678918ba7.svg",
     "static/media/percepcionremota.png": "/site/static/media/percepcionremota.07a389f988a299f220b1.png",
     "static/media/fondoweb2.png": "/site/static/media/fondoweb2.874407c1dbbde0b355b9.png",
@@ -50,7 +49,6 @@
     "static/media/aplicaciondrone_3-01.png": "/site/static/media/aplicaciondrone_3-01.675b286615102f27d0ee.png",
     "static/media/imagenradarmanilla.jpg": "/site/static/media/imagenradarmanilla.5f6efab9c62a7bcca611.jpg",
     "static/media/aplicaciondrone_1-01.png": "/site/static/media/aplicaciondrone_1-01.9786d1d483bde3f78637.png",
-    "static/media/blog.jpg": "/site/static/media/blog.c9857dddb6447ba28ab8.jpg",
     "static/media/aplicaciondrone_4-01.png": "/site/static/media/aplicaciondrone_4-01.c0f6df9068ba4bafcb70.png",
     "static/media/visorweb3.png": "/site/static/media/visorweb3.34cd9493713bf6f670fe.png",
     "static/media/logisticacard0.svg": "/site/static/media/logisticacard0.6e3a55bde2cd8ec2de682df3d986e53e.svg",
@@ -79,6 +77,7 @@
     "static/media/tablerocontrol2.png": "/site/static/media/tablerocontrol2.08b9dc84905c064e19ad.png",
     "static/media/iniciorevolucion.jpeg": "/site/static/media/iniciorevolucion.742c41b3c2fe4f43304e.jpeg",
     "static/media/selecciondesitios.jpeg": "/site/static/media/selecciondesitios.e67a236c06bda3ee34d7.jpeg",
+    "static/media/portadablog.jpg": "/site/static/media/portadablog.b8db55311bb3950fb8d1.jpg",
     "static/media/visorweb2.png": "/site/static/media/visorweb2.94cee4c40a5345cf3dc5.png",
     "static/media/postgresql.png": "/site/static/media/postgresql.12d23ccb6dee6c04af9e.png",
     "static/media/leaflet.png": "/site/static/media/leaflet.d582fbffff2cc3a80300.png",
@@ -124,12 +123,12 @@
     "static/media/cartaredhidricacuenca.png": "/site/static/media/cartaredhidricacuenca.4ca547c9f89cecdbbb40.png",
     "static/media/geocartos.svg": "/site/static/media/geocartos.59b2da5eed7836d83a97c6d1ace0acd0.svg",
     "index.html": "/site/index.html",
-    "main.1a106804.css.map": "/site/static/css/main.1a106804.css.map",
-    "main.fe5721c7.js.map": "/site/static/js/main.fe5721c7.js.map",
+    "main.4f1521d1.css.map": "/site/static/css/main.4f1521d1.css.map",
+    "main.d58cc973.js.map": "/site/static/js/main.d58cc973.js.map",
     "787.d9dea709.chunk.js.map": "/site/static/js/787.d9dea709.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a106804.css",
-    "static/js/main.fe5721c7.js"
+    "static/css/main.4f1521d1.css",
+    "static/js/main.d58cc973.js"
   ]
 }
