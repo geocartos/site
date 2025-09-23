@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.eaaf5d48.css",
-    "main.js": "/site/static/js/main.39c1d9e8.js",
+    "main.css": "/site/static/css/main.70b04248.css",
+    "main.js": "/site/static/js/main.0abe5d8d.js",
     "static/js/787.d9dea709.chunk.js": "/site/static/js/787.d9dea709.chunk.js",
     "static/media/medioambiente3.gif": "/site/static/media/medioambiente3.06b2c6a333245185d422.gif",
     "static/media/fondoweb1.png": "/site/static/media/fondoweb1.f4ee35bef87720d37f3f.png",
@@ -123,12 +123,12 @@
     "static/media/cartaredhidricacuenca.png": "/site/static/media/cartaredhidricacuenca.4ca547c9f89cecdbbb40.png",
     "static/media/geocartos.svg": "/site/static/media/geocartos.59b2da5eed7836d83a97c6d1ace0acd0.svg",
     "index.html": "/site/index.html",
-    "main.eaaf5d48.css.map": "/site/static/css/main.eaaf5d48.css.map",
-    "main.39c1d9e8.js.map": "/site/static/js/main.39c1d9e8.js.map",
+    "main.70b04248.css.map": "/site/static/css/main.70b04248.css.map",
+    "main.0abe5d8d.js.map": "/site/static/js/main.0abe5d8d.js.map",
     "787.d9dea709.chunk.js.map": "/site/static/js/787.d9dea709.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaaf5d48.css",
-    "static/js/main.39c1d9e8.js"
+    "static/css/main.70b04248.css",
+    "static/js/main.0abe5d8d.js"
   ]
 }
