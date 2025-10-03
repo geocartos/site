@@ -21,7 +21,17 @@ import { TeledeteccionySensores } from './components/TeledeteccionySensores/Tele
 import { Plataformasdigitales } from './components/Plataformasdigitales/Plataformasdigitales'
 
 import { Blog } from './components/Blog/Blog'
-import { Articulo } from './components/Blog/Articulo/Articulo'
+import { Barra } from './components/Blog/Articulos/Barra'
+import { El_poder_del_Big_Data_combinado_con_GIS } from './components/Blog/Articulos/El_poder_del_Big_Data_combinado_con_GIS'
+import { Importancia_de_los_GIS_en_la_seleccion_de_sitios } from './components/Blog/Articulos/Importancia_de_los_GIS_en_la_seleccion_de_sitios'
+import { Mapas_y_mas_alla } from './components/Blog/Articulos/Mapas_y_mas_alla'
+import { SQL_en_GIS } from './components/Blog/Articulos/SQL_en_GIS'
+import { La_Revolucion_Geoespacial_solo_esta_iniciando } from './components/Blog/Articulos/La_Revolucion_Geoespacial_solo_esta_iniciando'
+import { Evolucion_de_los_SIG } from './components/Blog/Articulos/Evolucion_de_los_SIG'
+
+
+
+
 
 
 import { HashRouter, Routes, Route } from 'react-router-dom';
@@ -57,7 +67,17 @@ function App() {
   <Route exact path="/Privacidad" element={<Privacidad />}/>
 
   <Route exact path="/Blog" element={<Blog />}/>
-  <Route exact path="/Articulo" element={<Articulo />}/>
+  <Route exact path="/Barra" element={<Barra />}/>
+  <Route exact path="/El_poder_del_Big_Data_combinado_con_GIS" element={<El_poder_del_Big_Data_combinado_con_GIS />}/>
+  <Route exact path="/Importancia_de_los_GIS_en_la_seleccion_de_sitios" element={<Importancia_de_los_GIS_en_la_seleccion_de_sitios />}/>
+  <Route exact path="/Mapas_y_mas_alla" element={<Mapas_y_mas_alla />}/>
+  <Route exact path="/SQL_en_GIS" element={<SQL_en_GIS />}/>
+  <Route exact path="/La_Revolucion_Geoespacial_solo_esta_iniciando" element={<La_Revolucion_Geoespacial_solo_esta_iniciando />}/>
+  <Route exact path="/Evolucion_de_los_SIG" element={<Evolucion_de_los_SIG />}/>
+
+ 
+
+ 
   
   
   <Route exact path="*" element={<Error404 />}/>

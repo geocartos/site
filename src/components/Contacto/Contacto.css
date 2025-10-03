@@ -1,17 +1,45 @@
-
-/*Contenedor Contacto*/
-.contenedorcontacto{
-   margin-top: 100px;
-   margin-bottom: 30px;
+/* Contenedor Contacto */
+.contenedorcontacto {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 0 15px;
 }
 
-.contenedorcontacto h1{
-   font-family: 'Source Sans Pro', sans-serif;
-   font-size: 28px;
-   text-align: center;
+/* Títulos principales */
+.contenedorcontacto h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.contenedorcontacto h2{
-   font-size: 16px;
+/* Subtítulos */
+.contenedorcontacto h2 {
+    font-size: 16px;
+    margin-bottom: 25px; /* más separación del bloque de contacto */
+    line-height: 1.5;
 }
 
+/* Lista de datos de contacto */
+.contenedorcontacto ul {
+    list-style: none; /* quita los bullets */
+    padding-left: 0;
+    margin-top: 20px; /* separa la lista del texto de arriba */
+}
+
+/* Lista de datos de contacto */
+.contenedorcontacto ul {
+    list-style: none; /* quita los bullets */
+    padding-left: 0;
+    margin-top: 120px; /* aumenta espacio entre el texto de arriba y la lista */
+}
+
+.contenedorcontacto ul li {
+    text-align: left; /* alinea a la izquierda */
+    margin-bottom: 15px; /* separación entre cada ítem */
+    font-size: 16px;
+}
+
+.contenedorcontacto ul li p {
+    margin: 0; /* elimina márgenes extra dentro del <p> */
+}

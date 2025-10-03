@@ -1,51 +1,95 @@
-/*footer*/
-.footer p{
-   color: #999;
-   line-height: 25px;
-   text-align: left;
+/* Footer */
+.footer p {
+  color: #999;
+  line-height: 25px;
+  text-align: left;
 }
+
 .footer h2 {
-   color: #fff;
-   font-size:  18px;
-}
-.sectionfooter{
-   background:rgb(21, 21, 20)
-}
-.footersuperior{
-   padding-top: 80px;
-   padding-bottom: 10px;
-}
-.footerinferior{
-   background: black;
-   padding-top: 10px;
-   padding-bottom: 0;
-}
-.segmento-cuatro h2:before{
-   content: '|';
-   color:#6E76b4;
-   padding-right: 10px;
-}
-.segmento-dos ul{
-   margin: 0;
-   padding: 0;
-   list-style: none;
-}
-.segmento-tres h2:before{
-   content: '|';
-   color:#6E76b4;
-   padding-right: 10px;
+  color: #fff;
+  font-size: 18px;
 }
 
-
-.segmento-cuatro a:hover{
-   background:#586113;
-   width: 40px;
-   height: 40px;
-   display: inline-block;
-   border-radius: 50%;
+.sectionfooter {
+  background: rgb(21, 21, 20);
 }
+
+.footersuperior {
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.footerinferior {
+  background: black;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+
+.segmento-cuatro h2:before {
+  content: '|';
+  color: #6E76b4;
+  padding-right: 10px;
+}
+
+.segmento-dos ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.segmento-tres h2:before {
+  content: '|';
+  color: #6E76b4;
+  padding-right: 10px;
+}
+
+/* Redes sociales */
+.segmento-cuatro a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  transition: background 0.3s ease, transform 0.3s ease;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.segmento-cuatro a:hover {
+  background: #586113;
+  transform: scale(1.1);
+}
+
 .segmento-cuatro a i {
-   font-size: 20px;
-   color: #fff;
-   padding: 10px 12px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Alinear títulos de Blog y Redes sociales a la izquierda */
+.segmento-tres,
+.segmento-cuatro {
+  text-align: left;
+}
+
+.segmento-tres h2,
+.segmento-cuatro h2 {
+  margin-left: 0; /* aseguramos que no haya margen que lo desplace */
+}
+
+/* Enlaces Blog y Footer inferior */
+.segmento-tres .text-secondary,
+.footerinferior .text-secondary {
+  text-decoration: none; /* quitar subrayado */
+  color: #304a79; /* color base */
+  transition: color 0.3s ease, border-bottom 0.3s ease, transform 0.3s ease;
+  border-bottom: 2px solid transparent; /* subrayado oculto por defecto */
+}
+
+.segmento-tres .text-secondary:hover,
+.footerinferior .text-secondary:hover {
+  color: #e8f0fd; /* color al pasar el mouse */
+  border-bottom: 2px solid #e8f0fd; /* subrayado visible */
+  transform: scale(1.05); /* ligero zoom */
 }

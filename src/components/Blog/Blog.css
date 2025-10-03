@@ -1,0 +1,84 @@
+/*Portada Blog*/
+.portablog {
+    width: 100%;
+    height: 450px;
+    background-image: url(../../images/blog/portadablog.jpg); 
+    background-size: cover; 
+    background-position: center;
+  }
+ 
+.portablog  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: 500;
+    margin-top: 190px;
+    color: #ffffff;
+  }
+
+.portablog p{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #e6d6d6;
+}
+
+
+.contenedorblog  {
+margin: 5vh;
+  }
+
+.contenedorblog p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #e6d6d6; 
+} 
+
+.contenedorblog h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #000000; 
+}
+
+.contenedorblog h2 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #bdb6b6; 
+}
+
+.contenedorblog h3 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #6377d1; 
+}
+
+.contenedorblog h4  {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #e6d6d6; 
+  font-size: 15px;
+}
+
+
+
+
+
+  

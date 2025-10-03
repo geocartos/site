@@ -14,7 +14,7 @@ export const Capacitacion = () => {
   return (
     <div>
 
-{/* Portada Capacitacion*/}
+{/* Portada Capacitacion*/} 
 <section className="portadacapacitacion">
 
 <div className="container-fluid portadacapa">

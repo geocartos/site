@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Home.css'
 import { Footer } from '../Footer/Footer'
 import portada1 from '../../images/portadabienvenida1.png'
@@ -28,8 +28,47 @@ import hexagon from '../../images/hexagon.png'
 import carto from '../../images/carto.png'
 import google from '../../images/google.png'
 
-
 import { NavLink } from 'react-router-dom'
+
+
+
+const TypingEffect = ({ words, speed = 150, pause = 2000 }) => {
+  const [text, setText] = useState('');
+  const [wordIndex, setWordIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [deleting, setDeleting] = useState(false);
+
+  useEffect(() => {
+  let timer;
+
+  const currentWord = words[wordIndex];
+
+  if (!deleting && charIndex <= currentWord.length) {
+    timer = setTimeout(() => {
+      setText(currentWord.substring(0, charIndex));
+      setCharIndex(charIndex + 1);
+    }, speed);
+  } else if (!deleting && charIndex > currentWord.length) {
+    timer = setTimeout(() => setDeleting(true), pause);
+  } else if (deleting && charIndex >= 0) {
+    timer = setTimeout(() => {
+      setText(currentWord.substring(0, charIndex));
+      setCharIndex(charIndex - 1);
+    }, speed / 2);
+  } else if (deleting && charIndex < 0) {
+    setDeleting(false);
+    setWordIndex((wordIndex + 1) % words.length);
+    setCharIndex(0);
+  }
+
+  return () => clearTimeout(timer);
+}, [charIndex, deleting, wordIndex, words, speed, pause]);
+
+  return <p className="typed-text">{text}<span className="cursor">|</span></p>;
+};
+
+export default TypingEffect;
+
 
 
 export const Home = () => {
@@ -136,17 +175,25 @@ export const Home = () => {
 
 {/* Geocartos Somos */}
 <section className="contenedortextoimagenTyping">
-<div className=".container-fluid contenedorinterno"> 
+  <div className="container-fluid contenedorinterno"> 
     <div className="row">
-
+      
       <div className="col-md-6 ctypeingtexto">
-
         <div className="col-md-12 col-sm-12 col-xs-12">
+          {/* Título estático */}
           <h4>Geocartos somos</h4>
-          <p><span className="typed-text"></span><span class="cursor">&nbsp;</span></p>
+
+          {/* Efecto tipado */}
+          <TypingEffect 
+            words={[
+              "Sistemas de Información Geográfica",
+              "Profesionalismo",
+              "Innovación",
+              "Soluciones geoespaciales"
+            ]}
+          />
         </div>
       </div>
-
 
       <div className="col-md-6 ctypeingimagen">
         <div className="col-md-12 col-sm-12 col-xs-12">
@@ -158,12 +205,13 @@ export const Home = () => {
   </div>
 </section>
 
+
 {/* Que hacemos */}
 <section className="quehacemos">
   <div className="container">
     <h3>¿QUÉ HACEMOS?</h3>
     <br/>
-    <p>En Geocartos somo un grupo de profesionales que ofrece soluciones mediante la integración y gestión de <strong>sistemas de información geográfica</strong>, que va desde la <strong>recolección, manipulación, interpretación y visualización de datos geoespaciales</strong>.</p>
+    <p>En Geocartos somos un grupo de profesionales que ofrece soluciones mediante la integración y gestión de <strong>sistemas de información geográfica</strong>, que va desde la <strong>recolección, manipulación, interpretación y visualización de datos geoespaciales</strong>.</p>
     <br/>  
     <div className="row clearfix">      
             <div className="col-md-4 col-sm-8 col-xs-8  ">
@@ -374,7 +422,6 @@ export const Home = () => {
 
 
        <Footer />
-
 
     </div>
   )

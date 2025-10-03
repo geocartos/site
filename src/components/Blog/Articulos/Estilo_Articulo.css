@@ -1,0 +1,38 @@
+.articulocuerpo {
+margin-top: 90px;
+
+  }
+
+.articulocuerpo p {
+  text-align: justify;
+ 
+    }
+
+.articulocuerpo h1 {
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-size: 50px;
+   font-weight: 500;
+   margin-top: 50px;
+   color: #000000;
+     }    
+
+.articulocuerpo h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #1d1c1c;
+     }   
+    
+ .articulocuerpo h3 {
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 20px;
+   margin-top: 30px;
+   margin-bottom: 15px;
+   color: #000000;
+     }          
