@@ -1,22 +1,81 @@
 
-.Barra p {
-  text-align: justify;
- 
-    }
+/* Minimal Articles Container */
+.minimal-articles-container {
+  padding: 0;
+}
 
-.Barra h2 {
-   text-align: justify;
-   font-size: 20px;
-   color: #9c2b2b;
-     }    
+/* Individual Minimal Article */
+.minimal-article {
+  margin-bottom: 2rem;
+  transition: opacity 0.3s ease;
+}
 
-.Barra h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+.minimal-article:hover {
+  opacity: 0.8;
+}
+
+/* Article Image */
+.article-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+
+/* Article Content */
+.article-content {
+  padding: 0;
+}
+
+/* Typography */
+.article-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0 0 0.75rem 0;
+  line-height: 1.4;
+}
+
+.article-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+}
+
+/* Article Link */
+.article-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9rem;
   font-weight: 500;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  color: #1d1c1c;
-  text-align: center;
-     }   
-    
+  transition: color 0.3s ease;
+}
+
+.article-link:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .article-image {
+    height: 160px;
+  }
+  
+  .article-title {
+    font-size: 1rem;
+  }
+  
+  .article-description {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .minimal-articles-container .col-md-4 {
+    margin-bottom: 2.5rem;
+  }
+}

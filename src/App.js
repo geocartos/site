@@ -22,7 +22,7 @@ import { Plataformasdigitales } from './components/Plataformasdigitales/Platafor
 
 import { Blog } from './components/Blog/Blog'
 import { Barra } from './components/Blog/Articulos/Barra'
-import { El_poder_del_Big_Data_combinado_con_GIS } from './components/Blog/Articulos/El_poder_del_Big_Data_combinado_con_GIS'
+import { Mapaciclistapuebla } from './components/Blog/Articulos/El_poder_del_Big_Data_combinado_con_GIS'
 import { Importancia_de_los_GIS_en_la_seleccion_de_sitios } from './components/Blog/Articulos/Importancia_de_los_GIS_en_la_seleccion_de_sitios'
 import { Mapas_y_mas_alla } from './components/Blog/Articulos/Mapas_y_mas_alla'
 import { SQL_en_GIS } from './components/Blog/Articulos/SQL_en_GIS'
@@ -68,7 +68,7 @@ function App() {
 
   <Route exact path="/Blog" element={<Blog />}/>
   <Route exact path="/Barra" element={<Barra />}/>
-  <Route exact path="/El_poder_del_Big_Data_combinado_con_GIS" element={<El_poder_del_Big_Data_combinado_con_GIS />}/>
+  <Route exact path="/Mapaciclistapuebla" element={<Mapaciclistapuebla />}/>
   <Route exact path="/Importancia_de_los_GIS_en_la_seleccion_de_sitios" element={<Importancia_de_los_GIS_en_la_seleccion_de_sitios />}/>
   <Route exact path="/Mapas_y_mas_alla" element={<Mapas_y_mas_alla />}/>
   <Route exact path="/SQL_en_GIS" element={<SQL_en_GIS />}/>
