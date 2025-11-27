@@ -1,0 +1,102 @@
+/* Estilos para el componente MapaCiclista */
+.mapa-ciclista-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.mapa-titulo {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.mapa-contenedor {
+  height: 600px;
+  width: 100%;
+  border: 2px solid #bdc3c7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.mapa-leyenda {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.mapa-leyenda h4 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-size: 16px;
+}
+
+.mapa-leyenda p {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.mapa-leyenda .leyenda-linea {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.mapa-leyenda .leyenda-descripcion {
+  font-style: italic;
+  color: #7f8c8d;
+  margin-top: 10px;
+}
+
+/* Estilos para los popups de Leaflet */
+.leaflet-popup-content h4 {
+  margin: 0 0 10px 0;
+  color: #e74c3c;
+  font-size: 16px;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 5px;
+}
+
+.leaflet-popup-content p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.leaflet-popup-content strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Estilo específico para popups de ciclovías */
+.ciclovia-popup .leaflet-popup-content {
+  background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+  border-radius: 8px;
+}
+
+.ciclovia-popup .leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .mapa-ciclista-container {
+    padding: 10px;
+  }
+  
+  .mapa-titulo {
+    font-size: 1.5rem;
+  }
+  
+  .mapa-contenedor {
+    height: 400px;
+  }
+}

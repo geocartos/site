@@ -4,7 +4,7 @@ import { Footer } from '../Footer/Footer';
 import { NavLink } from 'react-router-dom';
 
 
-import elpoderdelbigdatacombinadoconGIS from '../../images/blog/bigdata.jpeg';
+import mapaciclista from '../../images/blog/mapaciclista.jpeg';
 import importanciadelosgisenlaselecciondesitios from '../../images/blog/selecciondesitios.jpeg';
 import mapasymasalla from '../../images/blog/masalla.jpeg';
 import SQL_en_GIS from '../../images/blog/sqlgis.jpeg';
@@ -35,14 +35,14 @@ export const Blog = () => {
   <div className="col-md-6 targeta">
   <div className="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
   <div className="col p-4 d-flex flex-column position-static">
-        <h1 >El poder del Big Data combinado con GIS</h1>
-        <h2>This is a wider card with supporting text below as a natural lead-in to additional content.</h2>
-        <h3>Big Data</h3>
-        <h4><NavLink to="/El_poder_del_Big_Data_combinado_con_GIS">Continuar leyendo</NavLink></h4>
+        <h1 >Mapa Ciclista: Navegando las Rutas Urbanas</h1>
+        <h2>Descubre cómo los mapas ciclistas están transformando la movilidad urbana sostenible.</h2>
+        <h3>Movilidad Sostenible</h3>
+        <h4><NavLink to="/Mapaciclistapuebla">Continuar leyendo</NavLink></h4>
       </div>
       <div class="col-auto d-none d-lg-block">
 
-      <img width="200" height="250" src={elpoderdelbigdatacombinadoconGIS} alt="" />
+      <img width="200" height="250" src={mapaciclista} alt="Mapa Ciclista" />
       </div>
 
   </div>

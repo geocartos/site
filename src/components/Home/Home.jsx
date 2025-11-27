@@ -168,37 +168,28 @@ export const Home = () => {
 
 
  
-
-
 </div>
-
 
 {/* Geocartos Somos */}
 <section className="contenedortextoimagenTyping">
-  <div className="container-fluid contenedorinterno"> 
-    <div className="row">
+  <div className="container contenedorinterno"> 
+    <div className="row align-items-center">
       
       <div className="col-md-6 ctypeingtexto">
-        <div className="col-md-12 col-sm-12 col-xs-12">
-          {/* Título estático */}
-          <h4>Geocartos somos</h4>
+        <h4>Geocartos somos</h4>
 
-          {/* Efecto tipado */}
-          <TypingEffect 
-            words={[
-              "Sistemas de Información Geográfica",
-              "Profesionalismo",
-              "Innovación",
-              "Soluciones geoespaciales"
-            ]}
-          />
-        </div>
+        <TypingEffect 
+          words={[
+            "Sistemas de Información Geográfica",
+            "Profesionalismo",
+            "Innovación",
+            "Soluciones geoespaciales"
+          ]}
+        />
       </div>
 
-      <div className="col-md-6 ctypeingimagen">
-        <div className="col-md-12 col-sm-12 col-xs-12">
-          <img src={somosgeocartos} className="img-fluid" alt="" />
-        </div>
+      <div className="col-md-6 ctypeingimagen text-center">
+        <img src={somosgeocartos} className="img-fluid" alt="" />
       </div>
 
     </div>
